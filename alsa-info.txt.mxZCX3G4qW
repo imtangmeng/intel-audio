@@ -1,0 +1,764 @@
+upload=true&script=true&cardinfo=
+!!################################
+!!ALSA Information Script v 0.4.65
+!!################################
+
+!!Script ran on: Tue Nov 15 09:04:02 UTC 2022
+
+
+!!Linux Distribution
+!!------------------
+
+
+
+
+!!DMI Information
+!!---------------
+
+Manufacturer:      HUAWEI
+Product Name:      WRTD-WXX9
+Product Version:   M1010
+Firmware Version:  2.08
+System SKU:        C233
+Board Vendor:      HUAWEI
+Board Name:        WRTD-WXX9-PCB-B1
+
+
+!!ACPI Device Status Information
+!!---------------
+
+/sys/bus/acpi/devices/ACPI0008:00/status 	 15
+/sys/bus/acpi/devices/ACPI000C:00/status 	 15
+/sys/bus/acpi/devices/ELAN2841:00/status 	 15
+/sys/bus/acpi/devices/ESSX8336:00/status 	 15
+/sys/bus/acpi/devices/FOCAL:00/status 	 15
+/sys/bus/acpi/devices/INT33A1:00/status 	 15
+/sys/bus/acpi/devices/INT340E:00/status 	 15
+/sys/bus/acpi/devices/INT34C5:00/status 	 15
+/sys/bus/acpi/devices/INT3F0D:00/status 	 15
+/sys/bus/acpi/devices/INTC1040:00/status 	 15
+/sys/bus/acpi/devices/INTC1043:00/status 	 15
+/sys/bus/acpi/devices/INTC1043:01/status 	 15
+/sys/bus/acpi/devices/INTC1043:02/status 	 15
+/sys/bus/acpi/devices/INTC1043:03/status 	 15
+/sys/bus/acpi/devices/INTC1043:04/status 	 15
+/sys/bus/acpi/devices/INTC6000:00/status 	 15
+/sys/bus/acpi/devices/LNXPOWER:00/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:01/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:02/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:03/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:04/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:05/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:07/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:08/status 	 1
+/sys/bus/acpi/devices/MSFT0001:00/status 	 15
+/sys/bus/acpi/devices/NTAG0001:00/status 	 15
+/sys/bus/acpi/devices/PNP0103:00/status 	 15
+/sys/bus/acpi/devices/PNP0B00:00/status 	 15
+/sys/bus/acpi/devices/PNP0C02:02/status 	 11
+/sys/bus/acpi/devices/PNP0C02:04/status 	 11
+/sys/bus/acpi/devices/PNP0C0A:00/status 	 31
+/sys/bus/acpi/devices/PNP0C0C:00/status 	 11
+/sys/bus/acpi/devices/PRP00001:00/status 	 11
+/sys/bus/acpi/devices/WDT0001:00/status 	 15
+/sys/bus/acpi/devices/device:17/status 	 15
+/sys/bus/acpi/devices/device:24/status 	 15
+/sys/bus/acpi/devices/device:8a/status 	 15
+/sys/bus/acpi/devices/device:8b/status 	 15
+/sys/bus/acpi/devices/device:8c/status 	 15
+/sys/bus/acpi/devices/device:8e/status 	 15
+/sys/bus/acpi/devices/device:8f/status 	 15
+/sys/bus/acpi/devices/device:90/status 	 15
+
+
+!!Kernel Information
+!!------------------
+
+Kernel release:    6.1.0-rc4
+Operating System:  GNU/Linux
+Architecture:      x86_64
+Processor:         unknown
+SMP Enabled:       Yes
+
+
+!!ALSA Version
+!!------------
+
+Driver version:     k6.1.0-rc4
+Library version:    
+Utilities version:  1.2.4
+
+
+!!Loaded ALSA modules
+!!-------------------
+
+
+
+!!Sound Servers on this system
+!!----------------------------
+
+Pulseaudio:
+      Installed - Yes (/usr/bin/pulseaudio)
+      Running - Yes
+
+
+!!Soundcards recognised by ALSA
+!!-----------------------------
+
+--- no soundcards ---
+
+
+!!PCI Soundcards installed in the system
+!!--------------------------------------
+
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Tiger Lake-LP Smart Sound Technology Audio Controller [8086:a0c8] (rev 20)
+	Subsystem: QUANTA Computer Inc Tiger Lake-LP Smart Sound Technology Audio Controller [152d:1304]
+
+
+!!Modprobe options (Sound related)
+!!--------------------------------
+
+snd_pcsp: index=-2
+snd_usb_audio: index=-2
+snd_atiixp_modem: index=-2
+snd_intel8x0m: index=-2
+snd_via82xx_modem: index=-2
+snd_sof_acpi: dyndbg=+pmf
+snd_sof_acpi_intel_byt: dyndbg=+pmf
+snd_sof_acpi_intel_bdw: dyndbg=+pmf
+snd_sof_intel_byt: dyndbg=+pmf
+snd_sof_intel_bdw: dyndbg=+pmf
+snd_sof_pci: dyndbg=+pmf
+snd_sof_pci_intel_apl: dyndbg=+pmf
+snd_sof_pci_intel_cnl: dyndbg=+pmf
+snd_sof_pci_intel_icl: dyndbg=+pmf
+snd_sof_pci_intel_tgl: dyndbg=+pmf
+snd_sof_of: dyndbg=+pmf
+snd_intel_dspcfg: dyndbg=+pmf
+snd_intel_sdw_acpi: dyndbg=+pmf
+snd_sof_intel_ipc: dyndbg=+pmf
+snd_sof_intel_hda_common: dyndbg=+pmf
+snd_sof_intel_hda: dyndbg=+pmf
+snd_sof: dyndbg=+pmf
+snd_sof_nocodec: dyndbg=+pmf
+snd_soc_rt700: dyndbg=+pmf
+snd_soc_rt5682_sdw: dyndbg=+pmf
+snd_soc_rt5682: dyndbg=+pmf
+snd_soc_rt711: dyndbg=+pmf
+snd_soc_rt1308_sdw: dyndbg=+pmf
+snd_soc_rt1308: dyndbg=+pmf
+snd_soc_rt715: dyndbg=+pmf
+snd_soc_max98373_sdw: dyndbg=+pmf
+snd_soc_max98373: dyndbg=+pmf
+snd_soc_rt711_sdca: dyndbg=+pmf
+snd_soc_rt1316_sdw: dyndbg=+pmf
+snd_soc_rt715_sdca: dyndbg=+pmf
+snd_sof_ipc_test: dyndbg=+pmf
+snd_sof_probes: dyndbg=+pmf
+snd_sof_intel_client: dyndbg=+pmf
+snd_sof_client: dyndbg=+pmf
+snd_sof_ipc_flood_test: dyndbg=+pmf
+snd_soc_sst_bdw_rt5677_mach: dyndbg=+pmf
+snd_soc_sst_broadwell: dyndbg=+pmf
+snd_soc_sst_byt_cht_da7213: dyndbg=+pmf
+snd_soc_sst_byt_cht_es8316: dyndbg=+pmf
+snd_soc_sst_bytcr_rt5640: dyndbg=+pmf
+snd_soc_sst_bytcr_rt5651: dyndbg=+pmf
+snd_soc_sst_cht_bsw_max98090_ti: dyndbg=+pmf
+snd_soc_sst_cht_bsw_nau8824: dyndbg=+pmf
+snd_soc_sst_cht_bsw_rt5645: dyndbg=+pmf
+snd_soc_sst_cht_bsw_rt5672: dyndbg=+pmf
+snd_soc_sof_rt5682: dyndbg=+pmf
+snd_soc_sof_cs42l42: dyndbg=+pmf
+snd_soc_sof_es8336: dyndbg=+pmf
+snd_soc_sst_bxt_da7219_max98357a: dyndbg=+pmf
+snd_soc_sst_bxt_rt298: dyndbg=+pmf
+snd_soc_sst_sof_pcm512x: dyndbg=+pmf
+snd_soc_sst_sof_wm8804: dyndbg=+pmf
+snd_soc_sst_glk_rt5682_max98357a: dyndbg=+pmf
+snd_soc_cml_rt1011_rt5682: dyndbg=+pmf
+snd_soc_skl_hda_dsp: dyndbg=+pmf
+snd_soc_sof_da7219_max98373: dyndbg=+pmf
+snd_soc_ehl_rt5660: dyndbg=+pmf
+snd_soc_sof_sdw: dyndbg=+pmf
+
+
+!!Loaded sound module options
+!!---------------------------
+
+
+!!ALSA Device nodes
+!!-----------------
+
+crw-rw----+ 1 root audio 116,  1 May 19 19:22 /dev/snd/seq
+crw-rw----+ 1 root audio 116, 33 May 19 19:22 /dev/snd/timer
+
+
+!!Aplay/Arecord output
+!!--------------------
+
+APLAY
+
+aplay: device_list:274: no soundcards found...
+
+ARECORD
+
+arecord: device_list:274: no soundcards found...
+
+!!Amixer output
+!!-------------
+
+
+!!Alsactl output
+!!--------------
+
+--startcollapse--
+--endcollapse--
+
+
+!!All Loaded Modules
+!!------------------
+
+ac97_bus
+acpi_als
+acpi_pad
+acpi_thermal_rel
+aesni_intel
+async_memcpy
+async_pq
+async_raid6_recov
+async_tx
+async_xor
+autofs4
+binfmt_misc
+blake2b_generic
+bluetooth
+bnep
+btbcm
+btintel
+btmtk
+btrfs
+btrtl
+btusb
+cec
+cfg80211
+coretemp
+crc32_pclmul
+crct10dif_pclmul
+cryptd
+crypto_simd
+drm
+drm_buddy
+drm_display_helper
+drm_kms_helper
+ecc
+ecdh_generic
+efi_pstore
+fb_sys_fops
+ghash_clmulni_intel
+hid_generic
+hid_logitech_dj
+hid_logitech_hidpp
+hid_multitouch
+huawei_wmi
+i2c_algo_bit
+i2c_hid
+i2c_hid_acpi
+i2c_i801
+i2c_smbus
+i915
+iTCO_vendor_support
+iTCO_wdt
+idma64
+industrialio
+industrialio_triggered_buffer
+input_leds
+int3400_thermal
+int3403_thermal
+int340x_thermal_zone
+intel_cstate
+intel_lpss
+intel_lpss_pci
+intel_pmc_bxt
+intel_powerclamp
+intel_rapl_common
+intel_rapl_msr
+intel_soc_dts_iosf
+ip_tables
+iwlmvm
+iwlwifi
+joydev
+kfifo_buf
+kvm
+kvm_intel
+ledtrig_audio
+libarc4
+libcrc32c
+linear
+mac80211
+mac_hid
+mc
+mei
+mei_hdcp
+mei_me
+multipath
+nfnetlink
+nfnetlink_log
+nfnetlink_queue
+nls_iso8859_1
+pcspkr
+pinctrl_tigerlake
+processor_thermal_device
+processor_thermal_device_pci_legacy
+processor_thermal_mbox
+processor_thermal_rapl
+processor_thermal_rfim
+raid0
+raid1
+raid10
+raid456
+raid6_pq
+rfcomm
+serio_raw
+sha512_ssse3
+snd
+snd_compress
+snd_hda_codec
+snd_hda_codec_hdmi
+snd_hda_core
+snd_hda_ext_core
+snd_hda_intel
+snd_hwdep
+snd_intel_dspcfg
+snd_intel_sdw_acpi
+snd_pcm
+snd_pcm_dmaengine
+snd_soc_acpi
+snd_soc_acpi_intel_match
+snd_soc_core
+snd_soc_dmic
+snd_soc_es8316
+snd_soc_hdac_hda
+snd_soc_intel_hda_dsp_common
+snd_soc_sof_es8336
+snd_sof
+snd_sof_intel_hda
+snd_sof_intel_hda_common
+snd_sof_pci
+snd_sof_pci_intel_tgl
+snd_sof_probes
+snd_sof_utils
+snd_sof_xtensa_dsp
+snd_timer
+soundcore
+soundwire_bus
+soundwire_cadence
+soundwire_generic_allocation
+soundwire_intel
+sparse_keymap
+st
+syscopyarea
+sysfillrect
+sysimgblt
+ttm
+usbhid
+usbmouse
+uvcvideo
+vfs_monitor
+video
+videobuf2_common
+videobuf2_memops
+videobuf2_v4l2
+videobuf2_vmalloc
+videodev
+virt_dma
+wmi
+wmi_bmof
+x86_pkg_temp_thermal
+x_tables
+xhci_pci
+xhci_pci_renesas
+xor
+zstd_compress
+
+
+!!ALSA/HDA dmesg
+!!--------------
+
+[    5.125400] intel_rapl_common: Found RAPL domain package
+[    5.126743] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040100
+[    5.133161] iwlwifi 0000:00:14.3: Direct firmware load for iwlwifi-QuZ-a0-hr-b0-72.ucode failed with error -2
+--
+[    5.359609] sof-audio-pci-intel-tgl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040100
+[    5.359701] snd_sof_pci:sof_pci_probe: sof-audio-pci-intel-tgl 0000:00:1f.3: PCI DSP detected
+[    5.359716] sof-audio-pci-intel-tgl 0000:00:1f.3: enabling device (0000 -> 0002)
+--
+[    5.361632] sof-audio-pci-intel-tgl 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    5.368319] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: checking for capabilities at offset 0xc00
+[    5.368325] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: found ML capability at 0xc00
+[    5.368327] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: checking for capabilities at offset 0x800
+[    5.368331] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: found DSP capability at 0x800
+[    5.368333] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: checking for capabilities at offset 0x500
+[    5.368337] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: found GTS capability at 0x500
+[    5.368338] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: checking for capabilities at offset 0x1f00
+[    5.368342] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: found DRSM capability at 0x1f00
+[    5.368344] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: checking for capabilities at offset 0x700
+[    5.368348] snd_sof_intel_hda_common:hda_dsp_ctrl_get_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: found SPIB capability at 0x700
+[    5.368368] snd_sof_intel_hda_common:hda_dsp_stream_init: sof-audio-pci-intel-tgl 0000:00:1f.3: hda global caps = 0x1009701
+[    5.368370] snd_sof_intel_hda_common:hda_dsp_stream_init: sof-audio-pci-intel-tgl 0000:00:1f.3: detected 9 playback and 7 capture streams
+[    5.368450] sof-audio-pci-intel-tgl 0000:00:1f.3: use msi interrupt mode
+[    5.368452] snd_sof_intel_hda_common:hda_dsp_probe: sof-audio-pci-intel-tgl 0000:00:1f.3: using IPC IRQ 150
+[    5.368504] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000000 at  00000044
+[    5.368507] snd_sof_intel_hda_common:hda_init_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: PP capability, will probe DSP later.
+[    5.371401] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000040 at  00000048
+[    5.371406] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000000 at  00000048
+[    5.375639] snd_sof_intel_hda_common:hda_dsp_ctrl_init_chip: sof-audio-pci-intel-tgl 0000:00:1f.3: codec_mask = 0x4
+[    5.375650] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000000 at  00000048
+[    5.375653] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000040 at  00000048
+[    5.377173] snd_intel_sdw_acpi:sdw_intel_scan_controller: acpi PRP00001:00: ACPI reports 4 SDW Link devices
+[    5.377176] snd_intel_sdw_acpi:sdw_intel_scan_controller: acpi PRP00001:00: Link 0 not selected in firmware
+[    5.377179] snd_intel_sdw_acpi:sdw_intel_scan_controller: acpi PRP00001:00: Link 1 not selected in firmware
+[    5.377181] snd_intel_sdw_acpi:sdw_intel_scan_controller: acpi PRP00001:00: Link 2 not selected in firmware
+[    5.377183] snd_intel_sdw_acpi:sdw_intel_scan_controller: acpi PRP00001:00: Link 3 not selected in firmware
+[    5.377185] snd_sof_intel_hda_common:hda_init_caps: sof-audio-pci-intel-tgl 0000:00:1f.3: skipping SoundWire, no links enabled
+[    5.377263] snd_sof_intel_hda:hda_codec_probe: sof-audio-pci-intel-tgl 0000:00:1f.3: HDA codec #2 probed OK: response: 80862812
+[    5.378851] snd_sof_intel_hda:request_codec_module: hdaudio ehdaudio0D2: loading codec module: hdaudio:v80862812r00100000a01
+
+[    5.381650] snd_sof:sof_set_fw_state: sof-audio-pci-intel-tgl 0000:00:1f.3: fw_state change: 0 -> 1
+[    5.381823] snd_intel_dspcfg:intel_nhlt_get_dmic_geo: sof-audio-pci-intel-tgl 0000:00:1f.3: found 2 format definitions
+[    5.381825] snd_intel_dspcfg:intel_nhlt_get_dmic_geo: sof-audio-pci-intel-tgl 0000:00:1f.3: max channels found 2
+[    5.381827] snd_intel_dspcfg:intel_nhlt_get_dmic_geo: sof-audio-pci-intel-tgl 0000:00:1f.3: Array with 2 dmics
+[    5.381829] snd_intel_dspcfg:intel_nhlt_get_dmic_geo: sof-audio-pci-intel-tgl 0000:00:1f.3: dmic number 2 max_ch 2
+[    5.381832] sof-audio-pci-intel-tgl 0000:00:1f.3: NHLT_DEVICE_I2S detected, ssp_mask 0x1
+[    5.381834] snd_sof_intel_hda_common:hda_machine_select: sof-audio-pci-intel-tgl 0000:00:1f.3: MCLK mask 0x1 found in NHLT
+[    5.381836] sof-audio-pci-intel-tgl 0000:00:1f.3: Overriding topology with MCLK mask 0x1 from NHLT
+[    5.381837] sof-audio-pci-intel-tgl 0000:00:1f.3: hda codecs found, mask 4
+[    5.381847] snd_sof:snd_sof_load_firmware: sof-audio-pci-intel-tgl 0000:00:1f.3: loading firmware
+[    5.382817] snd_sof:snd_sof_load_firmware_raw: sof-audio-pci-intel-tgl 0000:00:1f.3: request_firmware intel/sof/sof-tgl.ri successful
+[    5.382820] snd_sof:ipc3_fw_ext_man_size: sof-audio-pci-intel-tgl 0000:00:1f.3: Unexpected extended manifest magic number: 0x44504324
+[    5.382823] snd_sof:snd_sof_load_firmware_raw: sof-audio-pci-intel-tgl 0000:00:1f.3: firmware doesn't contain extended manifest
+[    5.382824] snd_sof:sof_set_fw_state: sof-audio-pci-intel-tgl 0000:00:1f.3: fw_state change: 1 -> 2
+[    5.382832] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000002 at  00000048
+[    5.382837] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000000 at  00000048
+[    5.382844] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000000 at  00000044
+[    5.382848] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000004 at  00000044
+[    5.382850] snd_sof:snd_sof_run_firmware: sof-audio-pci-intel-tgl 0000:00:1f.3: booting DSP firmware
+[    5.382885] snd_sof_intel_hda_common:hda_dsp_stream_setup_bdl: sof-audio-pci-intel-tgl 0000:00:1f.3: period_bytes:0x0
+[    5.382887] snd_sof_intel_hda_common:hda_dsp_stream_setup_bdl: sof-audio-pci-intel-tgl 0000:00:1f.3: periods:1
+[    5.382929] snd_sof_intel_hda_common:hda_dsp_stream_hw_params: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x160]=0x40000 successful
+[    5.382944] snd_sof_intel_hda_common:hda_dsp_stream_hw_params: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x160]=0x40000 successful
+[    5.382947] snd_sof_intel_hda_common:hda_dsp_stream_setup_bdl: sof-audio-pci-intel-tgl 0000:00:1f.3: period_bytes:0x0
+[    5.382948] snd_sof_intel_hda_common:hda_dsp_stream_setup_bdl: sof-audio-pci-intel-tgl 0000:00:1f.3: periods:1
+[    5.382975] snd_sof_intel_hda_common:hda_dsp_cl_boot_firmware: sof-audio-pci-intel-tgl 0000:00:1f.3: Attempting iteration 0 of Core En/ROM load...
+[    5.383487] snd_sof_intel_hda_common:hda_dsp_core_power_up: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x4]=0xf010f0f successful
+[    5.383497] snd_sof_intel_hda_common:hda_dsp_core_reset_leave: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x4]=0xf010f0e successful
+[    5.383500] snd_sof_intel_hda_common:hda_dsp_core_run: sof-audio-pci-intel-tgl 0000:00:1f.3: unstall/run core: core_mask = 1
+[    5.383504] snd_sof_intel_hda_common:hda_dsp_core_is_enabled: sof-audio-pci-intel-tgl 0000:00:1f.3: DSP core(s) enabled? 1 : core_mask 1
+[    5.384013] snd_sof_intel_hda_common:cl_dsp_init: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0xd4]=0x80000000 successful
+[    5.402945] iwlwifi 0000:00:14.3: base HW address: 70:cf:49:51:66:89
+--
+[    5.425765] usbcore: registered new interface driver uvcvideo
+[    5.442192] snd_sof_intel_hda_common:cl_dsp_init: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x80000]=0x5000001 successful
+[    5.446223] input: FOCAL:00 2808:0101 Mouse as /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-FOCAL:00/0018:2808:0101.0002/input/input33
+--
+[    5.446338] hid-multitouch 0018:2808:0101.0002: input,hidraw1: I2C HID v1.00 Mouse [FOCAL:00 2808:0101] on i2c-FOCAL:00
+[    5.459753] snd_sof_intel_hda_common:hda_cl_copy_fw: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x80000]=0x5 successful
+[    5.460283] snd_sof_intel_hda_common:hda_dsp_stream_trigger: sof-audio-pci-intel-tgl 0000:00:1f.3: FW Poll Status: reg[0x160]=0x140000 successful
+[    5.460288] snd_sof_intel_hda_common:hda_dsp_cl_boot_firmware: sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware download successful, booting...
+[    5.468727] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc rx: 0x70000000
+[    5.468730] snd_sof:ipc3_fw_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: DSP is ready 0x70000000 offset 0x81000
+[    5.468805] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware info: version 1:6:0-18fab
+[    5.468806] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware: ABI 3:17:0 Kernel ABI 3:23:0
+[    5.469077] snd_sof:ipc3_fw_parse_ext_data: sof-audio-pci-intel-tgl 0000:00:1f.3: found ext header type 1 size 0x190
+[    5.469143] snd_sof:ipc3_fw_parse_ext_data: sof-audio-pci-intel-tgl 0000:00:1f.3: found ext header type 2 size 0x5c
+[    5.469144] snd_sof:sof_ipc3_get_cc_info: sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware info: used compiler XCC 12:0:8 <RG-2017.8-linux> used optimization flags O2
+[    5.469167] snd_sof:ipc3_fw_parse_ext_data: sof-audio-pci-intel-tgl 0000:00:1f.3: found ext header type 3 size 0x1c
+[    5.469179] snd_sof:ipc3_fw_parse_ext_data: sof-audio-pci-intel-tgl 0000:00:1f.3: found ext header type 4 size 0x10
+[    5.469197] snd_sof:ipc3_get_windows: sof-audio-pci-intel-tgl 0000:00:1f.3:  mailbox upstream 0x81000 - size 0x1000
+[    5.469198] snd_sof:ipc3_get_windows: sof-audio-pci-intel-tgl 0000:00:1f.3:  mailbox downstream 0xa0000 - size 0x2000
+[    5.469199] snd_sof:ipc3_get_windows: sof-audio-pci-intel-tgl 0000:00:1f.3:  stream region 0xc1000 - size 0x1000
+[    5.469200] snd_sof:ipc3_get_windows: sof-audio-pci-intel-tgl 0000:00:1f.3:  debug region 0xc0000 - size 0x800
+[    5.469201] snd_sof:sof_set_fw_state: sof-audio-pci-intel-tgl 0000:00:1f.3: fw_state change: 2 -> 5
+[    5.469279] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc rx done: 0x70000000
+[    5.469304] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000000 at  00000048
+[    5.469309] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000002 at  00000048
+[    5.469316] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIR: 00000004 at  00000044
+[    5.469320] snd_sof:snd_sof_pci_update_bits_unlocked: sof-audio-pci-intel-tgl 0000:00:1f.3: Debug PCIW: 00000000 at  00000044
+[    5.469321] snd_sof:snd_sof_run_firmware: sof-audio-pci-intel-tgl 0000:00:1f.3: firmware boot complete
+[    5.469322] snd_sof:sof_set_fw_state: sof-audio-pci-intel-tgl 0000:00:1f.3: fw_state change: 5 -> 6
+[    5.469323] snd_sof:sof_probe_continue: sof-audio-pci-intel-tgl 0000:00:1f.3: SOF firmware trace disabled
+[    5.469370] snd_sof:sof_machine_register: sof-audio-pci-intel-tgl 0000:00:1f.3: created machine sof-essx8336
+[    5.469381] snd_sof_pci:sof_pci_probe_complete: sof-audio-pci-intel-tgl 0000:00:1f.3: Completing SOF PCI probe
+[    5.515107] sof-essx8336 sof-essx8336: quirk mask 0x20
+--
+[    5.515111] sof-essx8336 sof-essx8336: quirk DMIC enabled
+[    5.515319] snd_sof:snd_sof_load_topology: sof-audio-pci-intel-tgl 0000:00:1f.3: loading topology:intel/sof-tplg/sof-tgl-es8336-dmic2ch-ssp0.tplg
+[    5.515661] sof-audio-pci-intel-tgl 0000:00:1f.3: Topology: ABI 3:23:0 Kernel ABI 3:23:0
+[    5.515665] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 0 pipe 1 type 23 name : PCM0P stream Passthrough Playback 0
+[    5.515670] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 1 Master Playback Volume
+[    5.515674] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 1 chans 2
+[    5.515675] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 1 pipe 1 type 6 name : PGA1.0 stream none
+[    5.515677] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 2 pipe 1 type 31 name : BUF1.0 stream none
+[    5.515679] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 3 pipe 1 type 31 name : BUF1.1 stream none
+[    5.515680] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 4 pipe 1 type 27 name : SSP0.OUT stream SSP0-Codec
+[    5.515682] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget SSP0.OUT -> DAI link SSP0-Codec
+[    5.515684] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 5 pipe 1 type 32 name : PIPELINE.1.SSP0.OUT stream SSP0.OUT
+[    5.515686] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 6 pipe 2 type 24 name : PCM0C stream Low Latency Capture 0
+[    5.515689] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 2 PCM 0 Capture Volume
+[    5.515691] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 7 chans 2
+[    5.515693] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 7 pipe 2 type 6 name : PGA2.0 stream none
+[    5.515695] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 8 pipe 2 type 31 name : BUF2.0 stream none
+[    5.515696] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 9 pipe 2 type 31 name : BUF2.1 stream none
+[    5.515698] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 10 pipe 2 type 28 name : SSP0.IN stream SSP0-Codec
+[    5.515699] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget SSP0.IN -> DAI link SSP0-Codec
+[    5.515701] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 11 pipe 2 type 32 name : PIPELINE.2.SSP0.IN stream SSP0.IN
+[    5.515702] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 12 pipe 3 type 24 name : PCM1C stream Highpass Capture 1
+[    5.515704] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : Capture Volume
+[    5.515708] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 13 chans 2
+[    5.515709] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : Capture Switch
+[    5.515710] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 13 chans 2
+[    5.515711] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 13 pipe 3 type 6 name : Dmic0 stream none
+[    5.515713] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 2 name : eqiir_coef_3
+[    5.515714] snd_sof:sof_control_load_bytes: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 14
+[    5.515715] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 14 pipe 3 type 33 name : EQIIR3.0 stream none
+[    5.515717] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 15 pipe 3 type 31 name : BUF3.0 stream none
+[    5.515718] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 16 pipe 3 type 31 name : BUF3.1 stream none
+[    5.515720] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 17 pipe 3 type 31 name : BUF3.2 stream none
+[    5.515721] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 18 pipe 3 type 28 name : DMIC0.IN stream dmic01
+[    5.515723] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget DMIC0.IN -> DAI link dmic01
+[    5.515724] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 19 pipe 3 type 32 name : PIPELINE.3.DMIC0.IN stream DMIC0.IN
+[    5.515726] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 20 pipe 4 type 24 name : PCM2C stream Highpass Capture 2
+[    5.515728] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 2nd Capture Volume
+[    5.515732] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 21 chans 2
+[    5.515733] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 21 pipe 4 type 6 name : Dmic1 stream none
+[    5.515735] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 2 name : eqiir_coef_4
+[    5.515736] snd_sof:sof_control_load_bytes: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 22
+[    5.515738] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 22 pipe 4 type 33 name : EQIIR4.0 stream none
+[    5.515739] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 23 pipe 4 type 31 name : BUF4.0 stream none
+[    5.515740] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 24 pipe 4 type 31 name : BUF4.1 stream none
+[    5.515742] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 25 pipe 4 type 31 name : BUF4.2 stream none
+[    5.515743] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 26 pipe 4 type 28 name : DMIC1.IN stream dmic16k
+[    5.515744] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget DMIC1.IN -> DAI link dmic16k
+[    5.515746] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 27 pipe 4 type 32 name : PIPELINE.4.DMIC1.IN stream DMIC1.IN
+[    5.515747] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 28 pipe 5 type 23 name : PCM5P stream Passthrough Playback 5
+[    5.515749] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 5 Master Playback Volume
+[    5.515752] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 29 chans 2
+[    5.515753] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 29 pipe 5 type 6 name : PGA5.0 stream none
+[    5.515754] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 30 pipe 5 type 31 name : BUF5.0 stream none
+[    5.515756] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 31 pipe 5 type 31 name : BUF5.1 stream none
+[    5.515758] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 32 pipe 5 type 27 name : HDA3.OUT stream iDisp1
+[    5.515760] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget HDA3.OUT -> DAI link iDisp1
+[    5.515762] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 33 pipe 5 type 32 name : PIPELINE.5.HDA3.OUT stream HDA3.OUT
+[    5.515765] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 34 pipe 6 type 23 name : PCM6P stream Passthrough Playback 6
+[    5.515768] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 6 Master Playback Volume
+[    5.515771] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 35 chans 2
+[    5.515773] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 35 pipe 6 type 6 name : PGA6.0 stream none
+[    5.515776] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 36 pipe 6 type 31 name : BUF6.0 stream none
+[    5.515777] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 37 pipe 6 type 31 name : BUF6.1 stream none
+[    5.515779] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 38 pipe 6 type 27 name : HDA4.OUT stream iDisp2
+[    5.515780] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget HDA4.OUT -> DAI link iDisp2
+[    5.515781] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 39 pipe 6 type 32 name : PIPELINE.6.HDA4.OUT stream HDA4.OUT
+[    5.515783] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 40 pipe 7 type 23 name : PCM7P stream Passthrough Playback 7
+[    5.515785] snd_sof:sof_control_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load control type 1 name : 7 Master Playback Volume
+[    5.515787] snd_sof:sof_control_load_volume: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load kcontrol index 41 chans 2
+[    5.515789] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 41 pipe 7 type 6 name : PGA7.0 stream none
+[    5.515791] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 42 pipe 7 type 31 name : BUF7.0 stream none
+[    5.515792] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 43 pipe 7 type 31 name : BUF7.1 stream none
+[    5.515793] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 44 pipe 7 type 27 name : HDA5.OUT stream iDisp3
+[    5.515794] snd_sof:sof_connect_dai_widget: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: connected widget HDA5.OUT -> DAI link iDisp3
+[    5.515796] snd_sof:sof_widget_ready: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: ready widget id 45 pipe 7 type 32 name : PIPELINE.7.HDA5.OUT stream HDA5.OUT
+[    5.515798] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm DMIC 1
+[    5.515809] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm DMIC16kHz 2
+[    5.515816] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm ES8336 0
+[    5.515824] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm HDMI 1 5
+[    5.515830] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm HDMI 2 6
+[    5.515836] snd_sof:sof_dai_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: load pcm HDMI 3 7
+[    5.515845] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF1.0 control none source PCM0P
+[    5.515848] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PGA1.0 control none source BUF1.0
+[    5.515851] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF1.1 control none source PGA1.0
+[    5.515852] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink SSP0.OUT control none source BUF1.1
+[    5.515854] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PCM0C control none source BUF2.1
+[    5.515856] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF2.1 control none source PGA2.0
+[    5.515857] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PGA2.0 control none source BUF2.0
+[    5.515859] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF2.0 control none source SSP0.IN
+[    5.515860] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PCM1C control none source BUF3.0
+[    5.515862] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF3.0 control none source Dmic0
+[    5.515864] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink Dmic0 control none source BUF3.1
+[    5.515865] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF3.1 control none source EQIIR3.0
+[    5.515867] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink EQIIR3.0 control none source BUF3.2
+[    5.515869] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF3.2 control none source DMIC0.IN
+[    5.515870] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PCM2C control none source BUF4.0
+[    5.515872] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF4.0 control none source Dmic1
+[    5.515873] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink Dmic1 control none source BUF4.1
+[    5.515874] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF4.1 control none source EQIIR4.0
+[    5.515876] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink EQIIR4.0 control none source BUF4.2
+[    5.515877] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF4.2 control none source DMIC1.IN
+[    5.515879] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF5.0 control none source PCM5P
+[    5.515880] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PGA5.0 control none source BUF5.0
+[    5.515882] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF5.1 control none source PGA5.0
+[    5.515884] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink HDA3.OUT control none source BUF5.1
+[    5.515886] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF6.0 control none source PCM6P
+[    5.515887] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PGA6.0 control none source BUF6.0
+[    5.515888] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF6.1 control none source PGA6.0
+[    5.515890] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink HDA4.OUT control none source BUF6.1
+[    5.515892] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF7.0 control none source PCM7P
+[    5.515893] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink PGA7.0 control none source BUF7.0
+[    5.515895] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink BUF7.1 control none source PGA7.0
+[    5.515896] snd_sof:sof_route_load: sof-audio-pci-intel-tgl 0000:00:1f.3: sink HDA5.OUT control none source BUF7.1
+[    5.515898] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 1 for dai link dmic01!
+[    5.515900] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 2 for dai link dmic16k!
+[    5.515902] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 0 for dai link SSP0-Codec!
+[    5.515904] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 3 for dai link iDisp1!
+[    5.515905] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 4 for dai link iDisp2!
+[    5.515906] snd_sof:sof_link_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: 1 hw_configs found, default id: 5 for dai link iDisp3!
+[    5.515907] sof-essx8336 sof-essx8336: ASoC: Parent card not yet available, widget card binding deferred
+[    5.515910] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.7.HDA5.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515912] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai HDA5.OUT: type 3 index 5
+[    5.515913] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    5.515915] snd_sof:sof_link_hda_load: sof-audio-pci-intel-tgl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    5.515916] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF7.1: size 768 caps 0x71
+[    5.515917] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF7.0: size 768 caps 0x71
+[    5.515919] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA PGA7.0
+[    5.515920] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515921] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM7P
+[    5.515922] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    5.515923] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.6.HDA4.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515924] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai HDA4.OUT: type 3 index 4
+[    5.515925] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    5.515926] snd_sof:sof_link_hda_load: sof-audio-pci-intel-tgl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    5.515928] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF6.1: size 768 caps 0x71
+[    5.515929] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF6.0: size 768 caps 0x71
+[    5.515930] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA PGA6.0
+[    5.515930] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515931] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM6P
+[    5.515932] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    5.515933] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.5.HDA3.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515935] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai HDA3.OUT: type 3 index 3
+[    5.515935] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    5.515936] snd_sof:sof_link_hda_load: sof-audio-pci-intel-tgl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    5.515938] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF5.1: size 768 caps 0x71
+[    5.515938] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF5.0: size 768 caps 0x71
+[    5.515939] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA PGA5.0
+[    5.515940] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515941] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM5P
+[    5.515942] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    5.515943] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.4.DMIC1.IN: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515944] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai DMIC1.IN: type 2 index 1
+[    5.515945] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 2
+[    5.515946] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: config DMIC1 driver version 1
+[    5.515947] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdmclk_min 2400000 pdm_clkmax 4800000 duty_min 40
+[    5.515949] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: duty_max 60 fifo_fs 16000 num_pdms active 1
+[    5.515950] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: fifo word length 32
+[    5.515951] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 mic a 1 mic b 1
+[    5.515952] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 polarity a 0 polarity b 0
+[    5.515952] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 clk_edge 0 skew 0
+[    5.515954] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF4.2: size 256 caps 0x71
+[    5.515955] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF4.1: size 256 caps 0x71
+[    5.515956] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF4.0: size 256 caps 0x71
+[    5.515957] snd_sof:sof_process_load: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded process EQIIR4.0
+[    5.515958] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515959] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA Dmic1
+[    5.515959] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515961] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM2C
+[    5.515962] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    5.515963] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.3.DMIC0.IN: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515964] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai DMIC0.IN: type 2 index 0
+[    5.515965] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 2
+[    5.515966] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: config DMIC0 driver version 1
+[    5.515967] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdmclk_min 2400000 pdm_clkmax 4800000 duty_min 40
+[    5.515968] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: duty_max 60 fifo_fs 48000 num_pdms active 1
+[    5.515969] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: fifo word length 32
+[    5.515970] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 mic a 1 mic b 1
+[    5.515970] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 polarity a 0 polarity b 0
+[    5.515971] snd_sof:sof_link_dmic_load: sof-audio-pci-intel-tgl 0000:00:1f.3: pdm 0 clk_edge 0 skew 0
+[    5.515972] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF3.2: size 768 caps 0x71
+[    5.515973] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF3.1: size 768 caps 0x71
+[    5.515974] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF3.0: size 768 caps 0x71
+[    5.515975] snd_sof:sof_process_load: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded process EQIIR3.0
+[    5.515976] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515977] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA Dmic0
+[    5.515978] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515979] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM1C
+[    5.515979] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    5.515981] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.2.SSP0.IN: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515982] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai SSP0.IN: type 1 index 0
+[    5.515983] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 1
+[    5.515984] snd_sof:sof_link_ssp_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: overriding topology mclk_id 0 by quirk 0
+[    5.515985] snd_sof:sof_link_ssp_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: config SSP0 fmt 0x4001 mclk 19200000 bclk 2400000 fclk 48000 width (24)25 slots 2 mclk id 0 quirks 0 clks_control 0x0
+[    5.515987] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF2.1: size 768 caps 0x71
+[    5.515988] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF2.0: size 768 caps 0x71
+[    5.515989] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA PGA2.0
+[    5.515990] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.515991] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM0C
+[    5.515992] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    5.515993] snd_sof:sof_ipc3_widget_setup_comp_pipeline: sof-audio-pci-intel-tgl 0000:00:1f.3: pipeline PIPELINE.1.SSP0.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    5.515994] snd_sof:sof_ipc3_widget_setup_comp_dai: sof-audio-pci-intel-tgl 0000:00:1f.3: dai SSP0.OUT: type 1 index 0
+[    5.515995] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 1
+[    5.515996] snd_sof:sof_link_ssp_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: overriding topology mclk_id 0 by quirk 0
+[    5.515997] snd_sof:sof_link_ssp_load: sof-audio-pci-intel-tgl 0000:00:1f.3: tplg: config SSP0 fmt 0x4001 mclk 19200000 bclk 2400000 fclk 48000 width (24)25 slots 2 mclk id 0 quirks 0 clks_control 0x0
+[    5.515998] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF1.1: size 768 caps 0x71
+[    5.515999] snd_sof:sof_ipc3_widget_setup_comp_buffer: sof-audio-pci-intel-tgl 0000:00:1f.3: buffer BUF1.0: size 768 caps 0x71
+[    5.516000] snd_sof:sof_ipc3_widget_setup_comp_pga: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded PGA PGA1.0
+[    5.516001] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 2 fmt 2
+[    5.516002] snd_sof:sof_ipc3_widget_setup_comp_host: sof-audio-pci-intel-tgl 0000:00:1f.3: loaded host PCM0P
+[    5.516003] snd_sof:sof_dbg_comp_config: sof-audio-pci-intel-tgl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    5.516009] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.516173] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x80010000
+[    5.516263] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget HDA5.OUT setup complete
+[    5.516269] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.516369] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF7.1 setup complete
+[    5.516374] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.516475] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF7.0 setup complete
+[    5.516481] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.516589] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50010000
+[    5.516749] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50020000
+[    5.516899] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PGA7.0 setup complete
+[    5.516906] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.517065] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PCM7P setup complete
+[    5.517072] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.517195] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x80010000
+[    5.517287] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget HDA4.OUT setup complete
+[    5.517292] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.517396] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF6.1 setup complete
+[    5.517402] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.517503] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF6.0 setup complete
+[    5.517510] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.517627] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50010000
+[    5.517799] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50020000
+[    5.517963] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PGA6.0 setup complete
+[    5.517968] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.518087] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PCM6P setup complete
+[    5.518092] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.518226] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x80010000
+[    5.518316] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget HDA3.OUT setup complete
+[    5.518321] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.518429] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF5.1 setup complete
+[    5.518432] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30200000
+[    5.518555] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget BUF5.0 setup complete
+[    5.518561] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.518688] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50010000
+[    5.518867] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x50020000
+[    5.519042] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PGA5.0 setup complete
+[    5.519047] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.519178] snd_sof:sof_widget_setup: sof-audio-pci-intel-tgl 0000:00:1f.3: widget PCM5P setup complete
+[    5.519184] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30010000
+[    5.519369] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x80010000
+[    5.519502] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x80010000 (msg/reply size: 216/12): -22
+[    5.519507] sof-audio-pci-intel-tgl 0000:00:1f.3: Failed to set dai config for dmic16k
+[    5.519510] snd_sof:ipc3_log_header: sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx: 0x30020000
+[    5.519636] snd_sof:sof_widget_free: sof-audio-pci-intel-tgl 0000:00:1f.3: widget DMIC1.IN freed
+[    5.519756] sof-audio-pci-intel-tgl 0000:00:1f.3: error: tplg component load failed -22
+[    5.519761] sof-audio-pci-intel-tgl 0000:00:1f.3: error: failed to load DSP topology -22
+[    5.519763] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_component_probe on 0000:00:1f.3: -22
+[    5.519782] sof-essx8336 sof-essx8336: ASoC: failed to instantiate card -22
+[    5.519865] sof-essx8336 sof-essx8336: snd_soc_register_card failed: -22
+[    5.519867] sof-essx8336: probe of sof-essx8336 failed with error -22
+
+
+!!Packages installed
+!!--------------------
+
+ii  alsa-topology-conf                            1.2.4-1                               all          ALSA topology configuration files
+ii  alsa-ucm-conf                                 1.2.4-2                               all          ALSA Use Case Manager configuration files
+ii  alsa-utils                                    1.2.4-1                               amd64        Utilities for configuring and using ALSA
+
