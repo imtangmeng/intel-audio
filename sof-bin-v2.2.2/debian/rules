@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/pkg-info.mk
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+export SOF_INSTALL_DIR=debian/firmware-sof-signed/lib/firmware/intel
+%:
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p $(SOF_INSTALL_DIR)
+	cp -a sof-v* $(SOF_INSTALL_DIR)/sof
+	cp -a sof-tplg-v* $(SOF_INSTALL_DIR)/sof-tplg

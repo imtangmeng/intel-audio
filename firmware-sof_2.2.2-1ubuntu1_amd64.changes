@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Tue, 01 Nov 2022 10:33:26 +0100
+Source: firmware-sof
+Binary: firmware-sof-signed
+Architecture: all
+Version: 2.2.2-1ubuntu1
+Distribution: lunar
+Urgency: medium
+Maintainer: Mark Pearson <markpearson@lenovo.com>
+Changed-By: Timo Aaltonen <tjaalton@debian.org>
+Description:
+ firmware-sof-signed - Intel SOF firmware - signed
+Changes:
+ firmware-sof (2.2.2-1ubuntu1) lunar; urgency=medium
+ .
+   * Merge from Debian unstable. Remaining changes:
+     - Replace and Break the (linux-firmware <= 1.202) (LP: #1930868)
+Checksums-Sha1:
+ 25e697bfd3cca999795e40e89ae5f7d35dec2a47 610488 firmware-sof-signed_2.2.2-1ubuntu1_all.deb
+ 03239877f54e7278cf354bf819dd9278162e9448 5149 firmware-sof_2.2.2-1ubuntu1_amd64.buildinfo
+Checksums-Sha256:
+ 1384268b7dba9c49bb07a20967f8f142caabef60a9f3a6a62bd72b4e54f205c8 610488 firmware-sof-signed_2.2.2-1ubuntu1_all.deb
+ 1173cd8e1865629ba2c013753b2bbc335949278e26a457c1991349c0727366a9 5149 firmware-sof_2.2.2-1ubuntu1_amd64.buildinfo
+Files:
+ 25870144c435e691018a17ec56a07ccc 610488 non-free/kernel optional firmware-sof-signed_2.2.2-1ubuntu1_all.deb
+ 92a98790febc941be4cbf33c5539617e 5149 non-free/kernel optional firmware-sof_2.2.2-1ubuntu1_amd64.buildinfo

@@ -1,0 +1,53 @@
+ dpkg-buildpackage -us -uc -ui -b
+dpkg-buildpackage: info: source package firmware-sof
+dpkg-buildpackage: info: source version 2.2.2-1ubuntu1
+dpkg-buildpackage: info: source distribution lunar
+dpkg-buildpackage: info: source changed by Timo Aaltonen <tjaalton@debian.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+   dh_clean
+ debian/rules binary
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+   dh_prep
+   debian/rules override_dh_auto_install
+make[1]: 进入目录“/home/tangm/work/community/intel-audio/sof-bin-v2.2.2”
+mkdir -p debian/firmware-sof-signed/lib/firmware/intel
+cp -a sof-v* debian/firmware-sof-signed/lib/firmware/intel/sof
+cp -a sof-tplg-v* debian/firmware-sof-signed/lib/firmware/intel/sof-tplg
+make[1]: 离开目录“/home/tangm/work/community/intel-audio/sof-bin-v2.2.2”
+   dh_installdocs
+   dh_installchangelogs
+   dh_lintian
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: 正在 '../firmware-sof-signed_2.2.2-1ubuntu1_all.deb' 中构建软件包 'firmware-sof-signed'。
+ dpkg-genbuildinfo --build=binary
+ dpkg-genchanges --build=binary >../firmware-sof_2.2.2-1ubuntu1_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary-only upload (no source included)
+Now running lintian firmware-sof_2.2.2-1ubuntu1_amd64.changes ...
+E: firmware-sof changes: bad-distribution-in-changes-file lunar
+W: firmware-sof-signed: maintainer-script-should-not-use-dpkg-maintscript-helper postinst:3
+W: firmware-sof-signed: maintainer-script-should-not-use-dpkg-maintscript-helper postrm:3
+W: firmware-sof-signed: maintainer-script-should-not-use-dpkg-maintscript-helper preinst:3
+N: 0 tags overridden; 3 unused overrides
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo firmware-sof_2.2.2-1ubuntu1_amd64.buildinfo Timo Aaltonen <tjaalton@debian.org>
+gpg: 已跳过 “Timo Aaltonen <tjaalton@debian.org>”： No secret key
+gpg: /tmp/debsign.z5OR9hpn/firmware-sof_2.2.2-1ubuntu1_amd64.buildinfo: clear-sign failed: No secret key
+debsign: gpg error occurred!  Aborting....

@@ -1,0 +1,17 @@
+Package: firmware-sof-signed
+Source: firmware-sof
+Version: 2.2.2-1ubuntu1
+Architecture: all
+Maintainer: Mark Pearson <markpearson@lenovo.com>
+Installed-Size: 16305
+Pre-Depends: dpkg (>= 1.17.14)
+Breaks: linux-firmware (<= 1.202)
+Replaces: linux-firmware (<= 1.202)
+Section: non-free/kernel
+Priority: optional
+Homepage: https://github.com/thesofproject/sof-bin
+Description: Intel SOF firmware - signed
+ Provides the Intel SOF audio firmware and topology needed for audio
+ functionality on some Intel system.
+ .
+ This package contains the pre-built and signed binaries.

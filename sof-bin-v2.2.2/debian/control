@@ -1,0 +1,23 @@
+Source: firmware-sof
+Section: non-free/kernel
+Priority: optional
+Maintainer: Mark Pearson <markpearson@lenovo.com>
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13),
+Homepage: https://github.com/thesofproject/sof-bin
+Vcs-Browser: https://salsa.debian.org/mpearson/firmware-sof
+Vcs-Git: https://salsa.debian.org/mpearson/firmware-sof.git
+XS-Autobuild: yes
+
+Package: firmware-sof-signed
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}, dpkg (>= 1.17.14)
+Depends: ${misc:Depends},
+Replaces: linux-firmware (<= 1.202)
+Breaks: linux-firmware (<= 1.202)
+Description: Intel SOF firmware - signed
+ Provides the Intel SOF audio firmware and topology needed for audio
+ functionality on some Intel system.
+ .
+ This package contains the pre-built and signed binaries.
