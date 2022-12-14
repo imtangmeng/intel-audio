@@ -1,0 +1,1959 @@
+upload=true&script=true&cardinfo=
+!!################################
+!!ALSA Information Script v 0.4.65
+!!################################
+
+!!Script ran on: Wed Dec 14 01:52:49 UTC 2022
+
+
+!!Linux Distribution
+!!------------------
+
+
+
+
+!!DMI Information
+!!---------------
+
+Manufacturer:      LENOVO
+Product Name:      81M4
+Product Version:   ZhaoYang K3-IML
+Firmware Version:  CQCN29WW
+System SKU:        LENOVO_MT_81M4_BU_idea_FM_ZhaoYang K3-IML
+Board Vendor:      LENOVO
+Board Name:        LNVNB161216
+
+
+!!ACPI Device Status Information
+!!---------------
+
+/sys/bus/acpi/devices/ACPI0003:00/status 	 15
+/sys/bus/acpi/devices/ACPI000C:00/status 	 15
+/sys/bus/acpi/devices/CUST0001:00/status 	 15
+/sys/bus/acpi/devices/INT0E0C:00/status 	 15
+/sys/bus/acpi/devices/INT33A1:00/status 	 15
+/sys/bus/acpi/devices/INT3400:00/status 	 15
+/sys/bus/acpi/devices/INT3403:00/status 	 15
+/sys/bus/acpi/devices/INT3403:01/status 	 15
+/sys/bus/acpi/devices/INT3403:02/status 	 15
+/sys/bus/acpi/devices/INT340E:00/status 	 15
+/sys/bus/acpi/devices/INT34BB:00/status 	 15
+/sys/bus/acpi/devices/INT3F0D:00/status 	 15
+/sys/bus/acpi/devices/LIC0001:00/status 	 15
+/sys/bus/acpi/devices/LNXPOWER:00/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:01/status 	 15
+/sys/bus/acpi/devices/LNXPOWER:05/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:06/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:07/status 	 1
+/sys/bus/acpi/devices/LNXPOWER:09/status 	 1
+/sys/bus/acpi/devices/MSFT0001:00/status 	 15
+/sys/bus/acpi/devices/NTZ0726:00/status 	 15
+/sys/bus/acpi/devices/PNP0103:00/status 	 15
+/sys/bus/acpi/devices/PNP0B00:00/status 	 15
+/sys/bus/acpi/devices/PNP0C02:00/status 	 3
+/sys/bus/acpi/devices/PNP0C02:01/status 	 3
+/sys/bus/acpi/devices/PNP0C02:05/status 	 3
+/sys/bus/acpi/devices/PNP0C09:00/status 	 15
+/sys/bus/acpi/devices/PNP0C0A:00/status 	 31
+/sys/bus/acpi/devices/PNP0C0C:00/status 	 11
+/sys/bus/acpi/devices/PNP0C0D:00/status 	 15
+/sys/bus/acpi/devices/PRP00001:00/status 	 11
+/sys/bus/acpi/devices/USBC000:00/status 	 15
+/sys/bus/acpi/devices/VPC2004:00/status 	 15
+/sys/bus/acpi/devices/device:17/status 	 15
+
+
+!!Kernel Information
+!!------------------
+
+Kernel release:    5.18.17-amd64-desktop-hwe
+Operating System:  GNU/Linux
+Architecture:      x86_64
+Processor:         unknown
+SMP Enabled:       Yes
+
+
+!!ALSA Version
+!!------------
+
+Driver version:     k5.18.17-amd64-desktop-hwe
+Library version:    
+Utilities version:  1.2.4
+
+
+!!Loaded ALSA modules
+!!-------------------
+
+snd_soc_skl_hda_dsp
+
+
+!!Sound Servers on this system
+!!----------------------------
+
+Pulseaudio:
+      Installed - Yes (/usr/bin/pulseaudio)
+      Running - Yes
+
+
+!!Soundcards recognised by ALSA
+!!-----------------------------
+
+ 0 [sofhdadsp      ]: sof-hda-dsp - sof-hda-dsp
+                      LENOVO-81M4-ZhaoYangK3_IML-LNVNB161216
+
+
+!!PCI Soundcards installed in the system
+!!--------------------------------------
+
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Comet Lake PCH-LP cAVS [8086:02c8]
+	Subsystem: Lenovo Comet Lake PCH-LP cAVS [17aa:3816]
+
+
+!!Modprobe options (Sound related)
+!!--------------------------------
+
+snd_pcsp: index=-2
+snd_usb_audio: index=-2
+snd_atiixp_modem: index=-2
+snd_intel8x0m: index=-2
+snd_via82xx_modem: index=-2
+snd_sof_intel_byt: dyndbg=+p
+snd_sof_intel_bdw: dyndbg=+p
+snd_sof_intel_ipc: dyndbg=+p
+snd_sof_intel_hda_common: dyndbg=+p
+snd_sof_intel_hda: dyndbg=+p
+snd_sof: dyndbg=+p
+snd_sof_pci: dyndbg=+p
+snd_sof_acpi: dyndbg=+p
+snd_sof_of: dyndbg=+p
+snd_sof_nocodec: dyndbg=+p
+snd_soc_skl_hda_dsp: dyndbg=+p
+snd_intel_dspcfg: dyndbg=+p
+
+
+!!Loaded sound module options
+!!---------------------------
+
+!!Module: snd_soc_skl_hda_dsp
+	* : 
+
+
+!!HDA-Intel Codec information
+!!---------------------------
+--startcollapse--
+
+Codec: Realtek Generic
+Address: 0
+AFG Function Id: 0x1 (unsol 1)
+Vendor Id: 0x10ec0257
+Subsystem Id: 0x17aa3835
+Revision Id: 0x100001
+No Modem Function Group found
+Default PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+State of AFG node 0x01:
+  Power states:  D0 D1 D2 D3 D3cold CLKSTOP EPSS
+  Power: setting=D0, actual=D0
+GPIO: io=3, o=0, i=0, unsolicited=1, wake=0
+  IO[0]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0
+  IO[1]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0
+  IO[2]: enable=0, dir=0, wake=0, sticky=0, data=0, unsol=0
+Node 0x02 [Audio Output] wcaps 0x41d: Stereo Amp-Out
+  Control: name="Speaker Playback Volume", index=0, device=0
+    ControlAmp: chs=3, dir=Out, idx=0, ofs=0
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=0x02, mute=0
+  Amp-Out vals:  [0x48 0x48]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x60]: 44100 48000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x03 [Audio Output] wcaps 0x41d: Stereo Amp-Out
+  Control: name="Headphone Playback Volume", index=0, device=0
+    ControlAmp: chs=3, dir=Out, idx=0, ofs=0
+  Amp-Out caps: ofs=0x57, nsteps=0x57, stepsize=0x02, mute=0
+  Amp-Out vals:  [0x00 0x00]
+  Converter: stream=0, channel=0
+  PCM:
+    rates [0x60]: 44100 48000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x04 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x05 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x06 [Audio Output] wcaps 0x611: Stereo Digital
+  Converter: stream=0, channel=0
+  Digital:
+  Digital category: 0x0
+  IEC Coding Type: 0x0
+  PCM:
+    rates [0x5e0]: 44100 48000 88200 96000 192000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x07 [Audio Input] wcaps 0x10051b: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1
+  Amp-In vals:  [0x97 0x97]
+  Converter: stream=0, channel=0
+  SDI-Select: 0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 1
+     0x24
+Node 0x08 [Audio Input] wcaps 0x10051b: Stereo Amp-In
+  Control: name="Capture Volume", index=0, device=0
+    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+  Control: name="Capture Switch", index=0, device=0
+    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+  Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1
+  Amp-In vals:  [0x3f 0x3f]
+  Converter: stream=0, channel=0
+  SDI-Select: 0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 1
+     0x23
+Node 0x09 [Audio Input] wcaps 0x10051b: Stereo Amp-In
+  Amp-In caps: ofs=0x17, nsteps=0x3f, stepsize=0x02, mute=1
+  Amp-In vals:  [0x97 0x97]
+  Converter: stream=0, channel=0
+  SDI-Select: 0
+  PCM:
+    rates [0x560]: 44100 48000 96000 192000
+    bits [0xe]: 16 20 24
+    formats [0x1]: PCM
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 1
+     0x22
+Node 0x0a [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x0b [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x0c [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x0d [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x0e [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x0f [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x10 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x11 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x12 [Pin Complex] wcaps 0x40040b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x00 0x00]
+  Pincap 0x00000020: IN
+  Pin Default 0x411111f0: [N/A] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xf, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x00:
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x13 [Pin Complex] wcaps 0x40040b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x00 0x00]
+  Pincap 0x00000020: IN
+  Pin Default 0x40000000: [N/A] Line Out at Ext N/A
+    Conn = Unknown, Color = Unknown
+    DefAssociation = 0x0, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x14 [Pin Complex] wcaps 0x40058d: Stereo Amp-Out
+  Control: name="Speaker Playback Switch", index=0, device=0
+    ControlAmp: chs=3, dir=Out, idx=0, ofs=0
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x00 0x00]
+  Pincap 0x00010014: OUT EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x90170110: [Fixed] Speaker at Int N/A
+    Conn = Analog, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x40: OUT
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 1
+     0x02
+Node 0x15 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x16 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x17 [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x18 [Pin Complex] wcaps 0x40048b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x00 0x00]
+  Pincap 0x00003724: IN Detect
+    Vref caps: HIZ 50 GRD 80 100
+  Pin Default 0x411111f0: [N/A] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xf, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x20: IN VREF_HIZ
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x19 [Pin Complex] wcaps 0x40048b: Stereo Amp-In
+  Control: name="Mic Boost Volume", index=0, device=0
+    ControlAmp: chs=3, dir=In, idx=0, ofs=0
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x01 0x01]
+  Pincap 0x00003724: IN Detect
+    Vref caps: HIZ 50 GRD 80 100
+  Pin Default 0x04a11040: [Jack] Mic at Ext Right
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x4, Sequence = 0x0
+  Pin-ctls: 0x24: IN VREF_80
+  Unsolicited: tag=02, enabled=1
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x1a [Pin Complex] wcaps 0x40048b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x00 0x00]
+  Pincap 0x00003724: IN Detect
+    Vref caps: HIZ 50 GRD 80 100
+  Pin Default 0x411111f0: [N/A] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xf, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x00: VREF_HIZ
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x1b [Pin Complex] wcaps 0x40058f: Stereo Amp-In Amp-Out
+  Amp-In caps: ofs=0x00, nsteps=0x03, stepsize=0x27, mute=0
+  Amp-In vals:  [0x00 0x00]
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x80 0x80]
+  Pincap 0x00013734: IN OUT EAPD Detect
+    Vref caps: HIZ 50 GRD 80 100
+  EAPD 0x2: EAPD
+  Pin Default 0x411111f0: [N/A] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xf, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x20: IN VREF_HIZ
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 2
+     0x02* 0x03
+Node 0x1c [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x1d [Pin Complex] wcaps 0x400400: Mono
+  Pincap 0x00000020: IN
+  Pin Default 0x40659a05: [N/A] Modem Line at Ext N/A
+    Conn = Optical, Color = Pink
+    DefAssociation = 0x0, Sequence = 0x5
+  Pin-ctls: 0x20: IN
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x1e [Pin Complex] wcaps 0x400781: Stereo Digital
+  Pincap 0x00000014: OUT Detect
+  Pin Default 0x411111f0: [N/A] Speaker at Ext Rear
+    Conn = 1/8, Color = Black
+    DefAssociation = 0xf, Sequence = 0x0
+    Misc = NO_PRESENCE
+  Pin-ctls: 0x40: OUT
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 1
+     0x06
+Node 0x1f [Vendor Defined Widget] wcaps 0xf00000: Mono
+Node 0x20 [Vendor Defined Widget] wcaps 0xf00040: Mono
+  Processing caps: benign=0, ncoeff=142
+Node 0x21 [Pin Complex] wcaps 0x40058d: Stereo Amp-Out
+  Control: name="Headphone Playback Switch", index=0, device=0
+    ControlAmp: chs=3, dir=Out, idx=0, ofs=0
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x80 0x80]
+  Pincap 0x0001001c: OUT HP EAPD Detect
+  EAPD 0x2: EAPD
+  Pin Default 0x04211020: [Jack] HP Out at Ext Right
+    Conn = 1/8, Color = Black
+    DefAssociation = 0x2, Sequence = 0x0
+  Pin-ctls: 0xc0: OUT HP
+  Unsolicited: tag=01, enabled=1
+  Power states:  D0 D1 D2 D3 EPSS
+  Power: setting=D0, actual=D0
+  Connection: 2
+     0x02 0x03*
+Node 0x22 [Audio Mixer] wcaps 0x20010b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-In vals:  [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1a 0x1b 0x1d 0x13
+Node 0x23 [Audio Mixer] wcaps 0x20010b: Stereo Amp-In
+  Amp-In caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-In vals:  [0x80 0x80] [0x00 0x00] [0x80 0x80] [0x80 0x80] [0x80 0x80] [0x80 0x80]
+  Connection: 6
+     0x18 0x19 0x1a 0x1b 0x1d 0x12
+Node 0x24 [Audio Selector] wcaps 0x300101: Stereo
+  Connection: 2
+     0x12* 0x13
+Codec: Intel Kabylake HDMI
+Address: 2
+AFG Function Id: 0x1 (unsol 0)
+Vendor Id: 0x8086280b
+Subsystem Id: 0x80860101
+Revision Id: 0x100000
+No Modem Function Group found
+Default PCM:
+    rates [0x0]:
+    bits [0x0]:
+    formats [0x0]:
+Default Amp-In caps: N/A
+Default Amp-Out caps: N/A
+State of AFG node 0x01:
+  Power states:  D0 D3 CLKSTOP EPSS
+  Power: setting=D0, actual=D0, Clock-stop-OK
+GPIO: io=0, o=0, i=0, unsolicited=0, wake=0
+Node 0x02 [Audio Output] wcaps 0x6611: 8-Channels Digital
+  Converter: stream=0, channel=0
+  Digital: Enabled KAE
+  Digital category: 0x0
+  IEC Coding Type: 0x0
+  PCM:
+    rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000
+    bits [0x1a]: 16 24 32
+    formats [0x5]: PCM AC3
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x03 [Audio Output] wcaps 0x6611: 8-Channels Digital
+  Converter: stream=0, channel=0
+  Digital: Enabled KAE
+  Digital category: 0x0
+  IEC Coding Type: 0x0
+  PCM:
+    rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000
+    bits [0x1a]: 16 24 32
+    formats [0x5]: PCM AC3
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x04 [Audio Output] wcaps 0x6611: 8-Channels Digital
+  Converter: stream=0, channel=0
+  Digital: Enabled KAE
+  Digital category: 0x0
+  IEC Coding Type: 0x0
+  PCM:
+    rates [0x7f0]: 32000 44100 48000 88200 96000 176400 192000
+    bits [0x1a]: 16 24 32
+    formats [0x5]: PCM AC3
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+Node 0x05 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x00 0x00]
+  Pincap 0x0b000094: OUT Detect HBR HDMI DP
+  Pin Default 0x18560010: [Jack] Digital Out at Int HDMI
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+  Devices: 0
+  Connection: 0
+Node 0x06 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x00 0x00]
+  Pincap 0x0b000094: OUT Detect HBR HDMI DP
+  Pin Default 0x18560010: [Jack] Digital Out at Int HDMI
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+  Devices: 0
+  Connection: 0
+Node 0x07 [Pin Complex] wcaps 0x40778d: 8-Channels Digital Amp-Out CP
+  Amp-Out caps: ofs=0x00, nsteps=0x00, stepsize=0x00, mute=1
+  Amp-Out vals:  [0x00 0x00]
+  Pincap 0x0b000094: OUT Detect HBR HDMI DP
+  Pin Default 0x18560010: [Jack] Digital Out at Int HDMI
+    Conn = Digital, Color = Unknown
+    DefAssociation = 0x1, Sequence = 0x0
+  Pin-ctls: 0x00:
+  Unsolicited: tag=00, enabled=0
+  Power states:  D0 D3 EPSS
+  Power: setting=D0, actual=D0
+  Devices: 0
+  Connection: 0
+Node 0x08 [Vendor Defined Widget] wcaps 0xf00000: Mono
+--endcollapse--
+
+
+!!ALSA Device nodes
+!!-----------------
+
+crw-rw----+ 1 root audio 116, 13 Dec 14 09:52 /dev/snd/controlC0
+crw-rw----+ 1 root audio 116, 12 Dec 14 09:52 /dev/snd/hwC0D0
+crw-rw----+ 1 root audio 116, 11 Dec 14 09:52 /dev/snd/hwC0D2
+crw-rw----+ 1 root audio 116,  5 Dec 14 09:52 /dev/snd/pcmC0D0c
+crw-rw----+ 1 root audio 116,  4 Dec 14 09:52 /dev/snd/pcmC0D0p
+crw-rw----+ 1 root audio 116,  7 Dec 14 09:52 /dev/snd/pcmC0D1c
+crw-rw----+ 1 root audio 116,  6 Dec 14 09:52 /dev/snd/pcmC0D1p
+crw-rw----+ 1 root audio 116,  8 Dec 14 09:52 /dev/snd/pcmC0D3p
+crw-rw----+ 1 root audio 116,  9 Dec 14 09:52 /dev/snd/pcmC0D4p
+crw-rw----+ 1 root audio 116, 10 Dec 14 09:52 /dev/snd/pcmC0D5p
+crw-rw----+ 1 root audio 116,  2 Dec 14 09:52 /dev/snd/pcmC0D6c
+crw-rw----+ 1 root audio 116,  3 Dec 14 09:52 /dev/snd/pcmC0D7c
+crw-rw----+ 1 root audio 116,  1 Dec 14 09:52 /dev/snd/seq
+crw-rw----+ 1 root audio 116, 33 Dec 14 09:52 /dev/snd/timer
+
+/dev/snd/by-path:
+total 0
+drwxr-xr-x 2 root root  60 Dec 14 09:52 .
+drwxr-xr-x 3 root root 340 Dec 14 09:52 ..
+lrwxrwxrwx 1 root root  12 Dec 14 09:52 pci-0000:00:1f.3-platform-skl_hda_dsp_generic -> ../controlC0
+
+
+!!Aplay/Arecord output
+!!--------------------
+
+APLAY
+
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 3: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 4: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 5: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+ARECORD
+
+**** List of CAPTURE Hardware Devices ****
+card 0: sofhdadsp [sof-hda-dsp], device 0: HDA Analog (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 1: HDA Digital (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 6: DMIC (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofhdadsp [sof-hda-dsp], device 7: DMIC16kHz (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+
+!!Amixer output
+!!-------------
+
+!!-------Mixer controls for card sofhdadsp
+
+Card hw:0 'sofhdadsp'/'LENOVO-81M4-ZhaoYangK3_IML-LNVNB161216'
+  Mixer name	: 'Realtek Generic'
+  Components	: 'HDA:8086280b,80860101,00100000 HDA:10ec0257,17aa3835,00100001 cfg-dmics:2'
+  Controls      : 48
+  Simple ctrls  : 18
+Simple mixer control 'Master',0
+  Capabilities: pvolume pvolume-joined pswitch pswitch-joined
+  Playback channels: Mono
+  Limits: Playback 0 - 87
+  Mono: Playback 72 [83%] [-11.25dB] [on]
+Simple mixer control 'Headphone',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 87
+  Mono:
+  Front Left: Playback 0 [0%] [-65.25dB] [off]
+  Front Right: Playback 0 [0%] [-65.25dB] [off]
+Simple mixer control 'Speaker',0
+  Capabilities: pvolume pswitch
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 87
+  Mono:
+  Front Left: Playback 87 [100%] [0.00dB] [on]
+  Front Right: Playback 87 [100%] [0.00dB] [on]
+Simple mixer control 'Mic Boost',0
+  Capabilities: volume
+  Playback channels: Front Left - Front Right
+  Capture channels: Front Left - Front Right
+  Limits: 0 - 3
+  Front Left: 1 [33%] [10.00dB]
+  Front Right: 1 [33%] [10.00dB]
+Simple mixer control 'IEC958',0
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [off]
+Simple mixer control 'IEC958',1
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'IEC958',2
+  Capabilities: pswitch pswitch-joined
+  Playback channels: Mono
+  Mono: Playback [on]
+Simple mixer control 'Capture',0
+  Capabilities: cvolume cswitch
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 63
+  Front Left: Capture 63 [100%] [30.00dB] [on]
+  Front Right: Capture 63 [100%] [30.00dB] [on]
+Simple mixer control 'Auto-Mute Mode',0
+  Capabilities: enum
+  Items: 'Disabled' 'Enabled'
+  Item0: 'Disabled'
+Simple mixer control 'Dmic0',0
+  Capabilities: cvolume cswitch
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 70
+  Front Left: Capture 63 [90%] [13.00dB] [on]
+  Front Right: Capture 63 [90%] [13.00dB] [on]
+Simple mixer control 'Dmic1 2nd',0
+  Capabilities: cvolume
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 70
+  Front Left: Capture 50 [71%] [0.00dB]
+  Front Right: Capture 50 [71%] [0.00dB]
+Simple mixer control 'PGA1.0 1 Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 32
+  Mono:
+  Front Left: Playback 32 [100%] [0.00dB]
+  Front Right: Playback 32 [100%] [0.00dB]
+Simple mixer control 'PGA2.0 2 Master',0
+  Capabilities: cvolume
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 80
+  Front Left: Capture 50 [62%] [0.00dB]
+  Front Right: Capture 50 [62%] [0.00dB]
+Simple mixer control 'PGA3.0 3 Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 32
+  Mono:
+  Front Left: Playback 32 [100%] [0.00dB]
+  Front Right: Playback 32 [100%] [0.00dB]
+Simple mixer control 'PGA4.0 4 Master',0
+  Capabilities: cvolume
+  Capture channels: Front Left - Front Right
+  Limits: Capture 0 - 80
+  Front Left: Capture 50 [62%] [0.00dB]
+  Front Right: Capture 50 [62%] [0.00dB]
+Simple mixer control 'PGA7.0 7 Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 32
+  Mono:
+  Front Left: Playback 32 [100%] [0.00dB]
+  Front Right: Playback 32 [100%] [0.00dB]
+Simple mixer control 'PGA8.0 8 Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 32
+  Mono:
+  Front Left: Playback 32 [100%] [0.00dB]
+  Front Right: Playback 32 [100%] [0.00dB]
+Simple mixer control 'PGA9.0 9 Master',0
+  Capabilities: pvolume
+  Playback channels: Front Left - Front Right
+  Limits: Playback 0 - 32
+  Mono:
+  Front Left: Playback 32 [100%] [0.00dB]
+  Front Right: Playback 32 [100%] [0.00dB]
+
+
+!!Alsactl output
+!!--------------
+
+--startcollapse--
+state.sofhdadsp {
+	control.1 {
+		iface MIXER
+		name 'Headphone Playback Volume'
+		value.0 0
+		value.1 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 87'
+			dbmin -6525
+			dbmax 0
+			dbvalue.0 -6525
+			dbvalue.1 -6525
+		}
+	}
+	control.2 {
+		iface MIXER
+		name 'Headphone Playback Switch'
+		value.0 false
+		value.1 false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.3 {
+		iface MIXER
+		name 'Speaker Playback Volume'
+		value.0 87
+		value.1 87
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 87'
+			dbmin -6525
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.4 {
+		iface MIXER
+		name 'Speaker Playback Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.5 {
+		iface MIXER
+		name 'Auto-Mute Mode'
+		value Disabled
+		comment {
+			access 'read write'
+			type ENUMERATED
+			count 1
+			item.0 Disabled
+			item.1 Enabled
+		}
+	}
+	control.6 {
+		iface MIXER
+		name 'Capture Volume'
+		value.0 63
+		value.1 63
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 63'
+			dbmin -1725
+			dbmax 3000
+			dbvalue.0 3000
+			dbvalue.1 3000
+		}
+	}
+	control.7 {
+		iface MIXER
+		name 'Capture Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.8 {
+		iface MIXER
+		name 'Mic Boost Volume'
+		value.0 1
+		value.1 1
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 3'
+			dbmin 0
+			dbmax 3000
+			dbvalue.0 1000
+			dbvalue.1 1000
+		}
+	}
+	control.9 {
+		iface MIXER
+		name 'Master Playback Volume'
+		value 72
+		comment {
+			access 'read write'
+			type INTEGER
+			count 1
+			range '0 - 87'
+			dbmin -6525
+			dbmax 0
+			dbvalue.0 -1125
+		}
+	}
+	control.10 {
+		iface MIXER
+		name 'Master Playback Switch'
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.11 {
+		iface CARD
+		name 'Mic Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.12 {
+		iface CARD
+		name 'Headphone Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.13 {
+		iface CARD
+		name 'Speaker Phantom Jack'
+		value true
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.14 {
+		iface CARD
+		name 'HDMI/DP,pcm=3 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.15 {
+		iface MIXER
+		name 'IEC958 Playback Con Mask'
+		value '0fff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.16 {
+		iface MIXER
+		name 'IEC958 Playback Pro Mask'
+		value '0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.17 {
+		iface MIXER
+		name 'IEC958 Playback Default'
+		value '0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type IEC958
+			count 1
+		}
+	}
+	control.18 {
+		iface MIXER
+		name 'IEC958 Playback Switch'
+		value false
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.19 {
+		iface PCM
+		device 3
+		name ELD
+		value ''
+		comment {
+			access 'read volatile'
+			type BYTES
+			count 0
+		}
+	}
+	control.20 {
+		iface CARD
+		name 'HDMI/DP,pcm=4 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.21 {
+		iface MIXER
+		name 'IEC958 Playback Con Mask'
+		index 1
+		value '0fff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.22 {
+		iface MIXER
+		name 'IEC958 Playback Pro Mask'
+		index 1
+		value '0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.23 {
+		iface MIXER
+		name 'IEC958 Playback Default'
+		index 1
+		value '0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type IEC958
+			count 1
+		}
+	}
+	control.24 {
+		iface MIXER
+		name 'IEC958 Playback Switch'
+		index 1
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.25 {
+		iface PCM
+		device 4
+		name ELD
+		value ''
+		comment {
+			access 'read volatile'
+			type BYTES
+			count 0
+		}
+	}
+	control.26 {
+		iface CARD
+		name 'HDMI/DP,pcm=5 Jack'
+		value false
+		comment {
+			access read
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.27 {
+		iface MIXER
+		name 'IEC958 Playback Con Mask'
+		index 2
+		value '0fff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.28 {
+		iface MIXER
+		name 'IEC958 Playback Pro Mask'
+		index 2
+		value '0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access read
+			type IEC958
+			count 1
+		}
+	}
+	control.29 {
+		iface MIXER
+		name 'IEC958 Playback Default'
+		index 2
+		value '0400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000'
+		comment {
+			access 'read write'
+			type IEC958
+			count 1
+		}
+	}
+	control.30 {
+		iface MIXER
+		name 'IEC958 Playback Switch'
+		index 2
+		value true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 1
+		}
+	}
+	control.31 {
+		iface PCM
+		device 5
+		name ELD
+		value ''
+		comment {
+			access 'read volatile'
+			type BYTES
+			count 0
+		}
+	}
+	control.32 {
+		iface PCM
+		device 3
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.33 {
+		iface PCM
+		device 4
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.34 {
+		iface PCM
+		device 5
+		name 'Playback Channel Map'
+		value.0 0
+		value.1 0
+		value.2 0
+		value.3 0
+		value.4 0
+		value.5 0
+		value.6 0
+		value.7 0
+		comment {
+			access 'read write'
+			type INTEGER
+			count 8
+			range '0 - 36'
+		}
+	}
+	control.35 {
+		iface MIXER
+		name 'PGA1.0 1 Master Playback Volume'
+		value.0 32
+		value.1 32
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 32'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.36 {
+		iface MIXER
+		name 'PGA2.0 2 Master Capture Volume'
+		value.0 50
+		value.1 50
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 80'
+			dbmin -9999999
+			dbmax 3000
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.38 {
+		iface MIXER
+		name 'PGA3.0 3 Master Playback Volume'
+		value.0 32
+		value.1 32
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 32'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.39 {
+		iface MIXER
+		name 'PGA4.0 4 Master Capture Volume'
+		value.0 50
+		value.1 50
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 80'
+			dbmin -9999999
+			dbmax 3000
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.41 {
+		iface MIXER
+		name 'PGA7.0 7 Master Playback Volume'
+		value.0 32
+		value.1 32
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 32'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.42 {
+		iface MIXER
+		name 'PGA8.0 8 Master Playback Volume'
+		value.0 32
+		value.1 32
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 32'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.43 {
+		iface MIXER
+		name 'PGA9.0 9 Master Playback Volume'
+		value.0 32
+		value.1 32
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 32'
+			dbmin -9999999
+			dbmax 0
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+	control.44 {
+		iface MIXER
+		name 'Dmic0 Capture Volume'
+		value.0 63
+		value.1 63
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 70'
+			dbmin -9999999
+			dbmax 2000
+			dbvalue.0 1300
+			dbvalue.1 1300
+		}
+	}
+	control.45 {
+		iface MIXER
+		name 'Dmic0 Capture Switch'
+		value.0 true
+		value.1 true
+		comment {
+			access 'read write'
+			type BOOLEAN
+			count 2
+		}
+	}
+	control.47 {
+		iface MIXER
+		name 'Dmic1 2nd Capture Volume'
+		value.0 50
+		value.1 50
+		comment {
+			access 'read write'
+			type INTEGER
+			count 2
+			range '0 - 70'
+			dbmin -9999999
+			dbmax 2000
+			dbvalue.0 0
+			dbvalue.1 0
+		}
+	}
+}
+--endcollapse--
+
+
+!!All Loaded Modules
+!!------------------
+
+ac97_bus
+acpi_pad
+acpi_thermal_rel
+aesni_intel
+async_memcpy
+async_pq
+async_raid6_recov
+async_tx
+async_xor
+autofs4
+binfmt_misc
+bluetooth
+bnep
+btbcm
+btintel
+btmtk
+btrtl
+btusb
+cec
+cfg80211
+coretemp
+crc32_pclmul
+crct10dif_pclmul
+cryptd
+crypto_simd
+drm
+drm_buddy
+drm_dp_helper
+drm_kms_helper
+ecc
+ecdh_generic
+efi_pstore
+fb_sys_fops
+ghash_clmulni_intel
+hid_generic
+hid_multitouch
+i2c_algo_bit
+i2c_hid
+i2c_hid_acpi
+i2c_i801
+i2c_smbus
+i915
+iTCO_vendor_support
+iTCO_wdt
+ideapad_laptop
+idma64
+input_leds
+int3400_thermal
+int3403_thermal
+int340x_thermal_zone
+intel_cstate
+intel_lpss
+intel_lpss_pci
+intel_pch_thermal
+intel_pmc_bxt
+intel_powerclamp
+intel_rapl_common
+intel_rapl_msr
+intel_soc_dts_iosf
+intel_wmi_thunderbolt
+ip_tables
+iwlmvm
+iwlwifi
+joydev
+kvm
+kvm_intel
+ledtrig_audio
+libarc4
+libcrc32c
+linear
+mac80211
+mac_hid
+mc
+mei
+mei_hdcp
+mei_me
+multipath
+nfnetlink
+nfnetlink_log
+nfnetlink_queue
+nls_iso8859_1
+pcspkr
+pinctrl_cannonlake
+platform_profile
+processor_thermal_device
+processor_thermal_device_pci_legacy
+processor_thermal_mbox
+processor_thermal_rapl
+processor_thermal_rfim
+raid0
+raid1
+raid10
+raid456
+raid6_pq
+rapl
+rfcomm
+serio_raw
+snd
+snd_compress
+snd_hda_codec
+snd_hda_codec_generic
+snd_hda_codec_hdmi
+snd_hda_core
+snd_hda_ext_core
+snd_hda_intel
+snd_hwdep
+snd_intel_dspcfg
+snd_intel_sdw_acpi
+snd_pcm
+snd_pcm_dmaengine
+snd_soc_acpi
+snd_soc_acpi_intel_match
+snd_soc_core
+snd_soc_dmic
+snd_soc_hdac_hda
+snd_soc_hdac_hdmi
+snd_soc_intel_hda_dsp_common
+snd_soc_skl_hda_dsp
+snd_sof
+snd_sof_intel_hda
+snd_sof_intel_hda_common
+snd_sof_pci
+snd_sof_pci_intel_cnl
+snd_sof_probes
+snd_sof_utils
+snd_sof_xtensa_dsp
+snd_timer
+soundcore
+soundwire_bus
+soundwire_cadence
+soundwire_generic_allocation
+soundwire_intel
+sparse_keymap
+st
+syscopyarea
+sysfillrect
+sysimgblt
+ttm
+typec
+typec_ucsi
+ucsi_acpi
+uvcvideo
+vfs_monitor
+video
+videobuf2_common
+videobuf2_memops
+videobuf2_v4l2
+videobuf2_vmalloc
+videodev
+virt_dma
+wl
+wmi
+wmi_bmof
+x86_pkg_temp_thermal
+x_tables
+xhci_pci
+xhci_pci_renesas
+xor
+
+
+!!Sysfs Files
+!!-----------
+
+/sys/class/sound/hwC0D0/init_pin_configs:
+0x12 0x411111f0
+0x13 0x40000000
+0x14 0x90170110
+0x18 0x411111f0
+0x19 0x04a11040
+0x1a 0x411111f0
+0x1b 0x411111f0
+0x1d 0x40659a05
+0x1e 0x411111f0
+0x21 0x04211020
+
+/sys/class/sound/hwC0D0/driver_pin_configs:
+
+/sys/class/sound/hwC0D0/user_pin_configs:
+
+/sys/class/sound/hwC0D0/init_verbs:
+
+/sys/class/sound/hwC0D0/hints:
+
+/sys/class/sound/hwC0D2/init_pin_configs:
+0x05 0x18560010
+0x06 0x18560010
+0x07 0x18560010
+
+/sys/class/sound/hwC0D2/driver_pin_configs:
+
+/sys/class/sound/hwC0D2/user_pin_configs:
+
+/sys/class/sound/hwC0D2/init_verbs:
+
+/sys/class/sound/hwC0D2/hints:
+
+
+!!ALSA/HDA dmesg
+!!--------------
+
+[    0.134448] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.134449] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.134450] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+--
+[    3.768939] thermal thermal_zone8: failed to read out thermal zone (-61)
+[    3.776235] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040100
+[    3.776355] snd_hda_intel 0000:00:1f.3: Digital mics found on Skylake+ platform, using SOF driver
+[    3.780064] hid-multitouch 0018:04F3:30C9.0001: input,hidraw0: I2C HID v1.00 Mouse [CUST0001:00 04F3:30C9] on i2c-CUST0001:00
+--
+[    3.915950] sof-audio-pci-intel-cnl 0000:00:1f.3: skipping SoundWire, no links enabled
+[    3.916071] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA codec #0 probed OK: response: 10ec0257
+[    3.916938] hdaudio ehdaudio0D0: loading codec module: hdaudio:v10EC0257r00100001a01
+--
+[    3.941033] iwlwifi 0000:00:14.3: base HW address: 9c:fc:e8:5b:ca:2f
+[    3.948032] snd_hda_codec_realtek: disagrees about version of symbol module_layout
+[    3.948032] snd_hda_codec_realtek: disagrees about version of symbol module_layout
+[    3.948210] hdaudio ehdaudio0D0: loading codec module: snd-hda-codec-generic
+[    3.949431] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA codec #2 probed OK: response: 8086280b
+[    3.950077] hdaudio ehdaudio0D2: loading codec module: hdaudio:v8086280Br00100000a01
+--
+[    3.953001] sof-audio-pci-intel-cnl 0000:00:1f.3: fw_state change: 0 -> 1
+[    3.953160] sof-audio-pci-intel-cnl 0000:00:1f.3: hda codecs found, mask 5
+[    3.953164] sof-audio-pci-intel-cnl 0000:00:1f.3: using HDA machine driver skl_hda_dsp_generic now
+[    3.953183] sof-audio-pci-intel-cnl 0000:00:1f.3: intel_nhlt_get_dmic_geo: found 2 format definitions
+--
+[    4.057331] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 4 pipe 1 type 31 name : BUF1.1 stream none
+[    4.057334] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 5 pipe 1 type 27 name : HDA0.OUT stream Analog Playback and Capture
+[    4.057337] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA0.OUT -> DAI link Analog Playback and Capture
+[    4.057340] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 6 pipe 1 type 32 name : PIPELINE.1.HDA0.OUT stream HDA0.OUT
+[    4.057343] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 7 pipe 1 type 0 name : codec0_in stream none
+--
+[    4.057378] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 14 pipe 2 type 31 name : BUF2.2 stream none
+[    4.057380] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 15 pipe 2 type 28 name : HDA1.IN stream Analog Playback and Capture
+[    4.057384] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA1.IN -> DAI link Analog Playback and Capture
+[    4.057387] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 16 pipe 2 type 32 name : PIPELINE.2.HDA1.IN stream HDA1.IN
+[    4.057391] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 17 pipe 2 type 0 name : codec1_in stream none
+--
+[    4.057411] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 22 pipe 3 type 31 name : BUF3.1 stream none
+[    4.057414] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 23 pipe 3 type 27 name : HDA2.OUT stream Digital Playback and Capture
+[    4.057416] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA2.OUT -> DAI link Digital Playback and Capture
+[    4.057419] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 24 pipe 3 type 32 name : PIPELINE.3.HDA2.OUT stream HDA2.OUT
+[    4.057421] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 25 pipe 3 type 1 name : codec0_out stream none
+--
+[    4.057458] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 32 pipe 4 type 31 name : BUF4.2 stream none
+[    4.057461] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 33 pipe 4 type 28 name : HDA3.IN stream Digital Playback and Capture
+[    4.057464] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA3.IN -> DAI link Digital Playback and Capture
+[    4.057466] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 34 pipe 4 type 32 name : PIPELINE.4.HDA3.IN stream HDA3.IN
+[    4.057471] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 35 pipe 4 type 1 name : codec1_out stream none
+--
+[    4.057512] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 44 pipe 7 type 31 name : BUF7.1 stream none
+[    4.057515] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 45 pipe 7 type 27 name : HDA4.OUT stream iDisp1
+[    4.057517] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA4.OUT -> DAI link iDisp1
+[    4.057520] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 46 pipe 7 type 32 name : PIPELINE.7.HDA4.OUT stream HDA4.OUT
+[    4.057522] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 47 pipe 7 type 1 name : iDisp1_out stream none
+--
+[    4.057545] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 52 pipe 8 type 31 name : BUF8.1 stream none
+[    4.057548] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 53 pipe 8 type 27 name : HDA5.OUT stream iDisp2
+[    4.057550] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA5.OUT -> DAI link iDisp2
+[    4.057552] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 54 pipe 8 type 32 name : PIPELINE.8.HDA5.OUT stream HDA5.OUT
+[    4.057556] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 55 pipe 8 type 1 name : iDisp2_out stream none
+--
+[    4.057580] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 60 pipe 9 type 31 name : BUF9.1 stream none
+[    4.057583] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 61 pipe 9 type 27 name : HDA6.OUT stream iDisp3
+[    4.057585] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: connected widget HDA6.OUT -> DAI link iDisp3
+[    4.057587] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 62 pipe 9 type 32 name : PIPELINE.9.HDA6.OUT stream HDA6.OUT
+[    4.057590] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: ready widget id 63 pipe 9 type 1 name : iDisp3_out stream none
+--
+[    4.057696] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - DMIC16kHz
+[    4.057705] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: load pcm HDA Analog 0
+[    4.057712] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - HDA Analog
+[    4.057723] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: load pcm HDA Digital 1
+[    4.057730] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - HDA Digital
+[    4.057745] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: load pcm HDMI1 3
+[    4.057750] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - HDMI1
+[    4.057758] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: load pcm HDMI2 4
+[    4.057761] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - HDMI2
+[    4.057771] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: load pcm HDMI3 5
+[    4.057774] skl_hda_dsp_generic skl_hda_dsp_generic: skl_hda_add_dai_link: dai link name - HDMI3
+[    4.057781] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF1.0 control none source PCM0P
+--
+[    4.057787] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF1.1 control none source PGA1.0
+[    4.057789] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA0.OUT control none source BUF1.1
+[    4.057791] sof-audio-pci-intel-cnl 0000:00:1f.3: sink PCM0C control none source BUF2.0
+--
+[    4.057801] sof-audio-pci-intel-cnl 0000:00:1f.3: sink EQIIR2.0 control none source BUF2.2
+[    4.057803] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF2.2 control none source HDA1.IN
+[    4.057804] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF3.0 control none source PCM1P
+--
+[    4.057808] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF3.1 control none source PGA3.0
+[    4.057810] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA2.OUT control none source BUF3.1
+[    4.057812] sof-audio-pci-intel-cnl 0000:00:1f.3: sink PCM1C control none source BUF4.0
+--
+[    4.057819] sof-audio-pci-intel-cnl 0000:00:1f.3: sink EQIIR4.0 control none source BUF4.2
+[    4.057821] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF4.2 control none source HDA3.IN
+[    4.057822] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF7.0 control none source PCM3P
+--
+[    4.057826] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF7.1 control none source PGA7.0
+[    4.057828] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA4.OUT control none source BUF7.1
+[    4.057830] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF8.0 control none source PCM4P
+--
+[    4.057833] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF8.1 control none source PGA8.0
+[    4.057835] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA5.OUT control none source BUF8.1
+[    4.057837] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF9.0 control none source PCM5P
+--
+[    4.057840] sof-audio-pci-intel-cnl 0000:00:1f.3: sink BUF9.1 control none source PGA9.0
+[    4.057842] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA6.OUT control none source BUF9.1
+[    4.057843] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA1.IN control none source codec0_in
+[    4.057846] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA3.IN control none source codec1_in
+[    4.057848] sof-audio-pci-intel-cnl 0000:00:1f.3: sink codec0_out control none source HDA0.OUT
+[    4.057850] sof-audio-pci-intel-cnl 0000:00:1f.3: sink codec1_out control none source HDA2.OUT
+[    4.057852] sof-audio-pci-intel-cnl 0000:00:1f.3: sink HDA3.IN control none source codec2_in
+[    4.057853] sof-audio-pci-intel-cnl 0000:00:1f.3: sink codec2_out control none source HDA2.OUT
+[    4.057855] sof-audio-pci-intel-cnl 0000:00:1f.3: sink iDisp1_out control none source HDA4.OUT
+[    4.057857] sof-audio-pci-intel-cnl 0000:00:1f.3: sink iDisp2_out control none source HDA5.OUT
+[    4.057859] sof-audio-pci-intel-cnl 0000:00:1f.3: sink iDisp3_out control none source HDA6.OUT
+[    4.057860] sof-audio-pci-intel-cnl 0000:00:1f.3: sink PCM6C control none source BUF10.0
+--
+[    4.057940] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    4.057942] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.9.HDA6.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057943] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA6.OUT: type 3 index 6
+[    4.057944] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    4.057945] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057947] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF9.1: size 768 caps 0x71
+--
+[    4.057952] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    4.057953] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.8.HDA5.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057954] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA5.OUT: type 3 index 5
+[    4.057955] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    4.057956] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057957] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF8.1: size 768 caps 0x71
+--
+[    4.057961] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    4.057962] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.7.HDA4.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057964] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA4.OUT: type 3 index 4
+[    4.057965] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    4.057965] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057966] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF7.1: size 768 caps 0x71
+--
+[    4.057971] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    4.057972] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.4.HDA3.IN: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057973] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA3.IN: type 3 index 3
+[    4.057974] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 2
+[    4.057975] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057976] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF4.2: size 768 caps 0x71
+--
+[    4.057983] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    4.057984] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.3.HDA2.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057985] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA2.OUT: type 3 index 2
+[    4.057986] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    4.057987] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057988] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF3.1: size 768 caps 0x71
+--
+[    4.057992] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 0
+[    4.057993] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.2.HDA1.IN: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.057995] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA1.IN: type 3 index 1
+[    4.057996] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 2 src 0 fmt 2
+[    4.057997] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.057997] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF2.2: size 768 caps 0x71
+--
+[    4.058004] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 0
+[    4.058006] sof-audio-pci-intel-cnl 0000:00:1f.3: pipeline PIPELINE.1.HDA0.OUT: period 1000 pri 0 mips 5000 core 0 frames 0 dynamic 0
+[    4.058007] sof-audio-pci-intel-cnl 0000:00:1f.3: sof_ipc3_widget_setup_comp_dai dai HDA0.OUT: type 3 index 0
+[    4.058008] sof-audio-pci-intel-cnl 0000:00:1f.3:  config: periods snk 0 src 2 fmt 2
+[    4.058009] sof-audio-pci-intel-cnl 0000:00:1f.3: HDA config rate 48000 channels 2
+[    4.058010] sof-audio-pci-intel-cnl 0000:00:1f.3: buffer BUF1.1: size 768 caps 0x71
+--
+[    4.064161] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.064162] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA6.OUT setup complete
+[    4.064166] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.065397] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.065398] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA5.OUT setup complete
+[    4.065402] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.066634] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.066635] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA4.OUT setup complete
+[    4.066638] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.067867] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.067868] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA3.IN setup complete
+[    4.067873] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.070100] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.070101] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA2.OUT setup complete
+[    4.070105] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.071368] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.071369] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA1.IN setup complete
+[    4.071373] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.073572] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[    4.073573] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA0.OUT setup complete
+[    4.073577] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[    4.075620] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.075621] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF9.1 -> HDA6.OUT
+[    4.075624] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.075988] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.075989] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF8.1 -> HDA5.OUT
+[    4.075992] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.076359] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.076360] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF7.1 -> HDA4.OUT
+[    4.076364] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.076732] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.076733] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA3.IN -> BUF4.2
+[    4.076736] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.077328] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.077329] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF3.1 -> HDA2.OUT
+[    4.077331] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.077730] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.077731] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA1.IN -> BUF2.2
+[    4.077734] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.078346] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[    4.078347] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF1.1 -> HDA0.OUT
+[    4.078350] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[    4.079452] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.079453] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.9.HDA6.OUT setup complete
+[    4.079454] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.9.HDA6.OUT id 62
+[    4.079457] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.079715] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.079716] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.8.HDA5.OUT setup complete
+[    4.079717] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.8.HDA5.OUT id 54
+[    4.079720] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.080011] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.080012] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.7.HDA4.OUT setup complete
+[    4.080013] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.7.HDA4.OUT id 46
+[    4.080016] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.080294] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.080295] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.4.HDA3.IN setup complete
+[    4.080296] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.4.HDA3.IN id 34
+[    4.080299] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.080581] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.080582] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.3.HDA2.OUT setup complete
+[    4.080583] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.3.HDA2.OUT id 24
+[    4.080586] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.080880] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.080881] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.2.HDA1.IN setup complete
+[    4.080881] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.2.HDA1.IN id 16
+[    4.080885] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[    4.081174] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[    4.081175] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.1.HDA0.OUT setup complete
+[    4.081176] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.1.HDA0.OUT id 6
+[    4.081179] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+[    4.081335] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30130000
+[    4.092528] snd_hda_codec_generic ehdaudio0D0: autoconfig for Generic: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[    4.092531] snd_hda_codec_generic ehdaudio0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    4.092533] snd_hda_codec_generic ehdaudio0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    4.092534] snd_hda_codec_generic ehdaudio0D0:    mono: mono_out=0x0
+[    4.092534] snd_hda_codec_generic ehdaudio0D0:    inputs:
+[    4.092535] snd_hda_codec_generic ehdaudio0D0:      Mic=0x19
+[    4.099355] snd_hda_codec_generic ehdaudio0D0: ASoC: sink widget AIF1TX overwritten
+[    4.099359] snd_hda_codec_generic ehdaudio0D0: ASoC: source widget AIF1RX overwritten
+[    4.099399] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM DMIC
+--
+[    4.099411] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Highpass Capture 7 capture DMA buffer size 0x10000 max 0x10000
+[    4.099418] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM HDA Analog
+[    4.099419] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Passthrough Playback 0 playback DMA buffer size 0x10000 max 0x10000
+[    4.099421] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Highpass Capture 0 capture DMA buffer size 0x10000 max 0x10000
+[    4.099431] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM HDA Digital
+[    4.099431] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Passthrough Playback 1 playback DMA buffer size 0x10000 max 0x10000
+[    4.099432] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Highpass Capture 1 capture DMA buffer size 0x10000 max 0x10000
+[    4.099438] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM HDMI1
+[    4.099439] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Passthrough Playback 3 playback DMA buffer size 0x10000 max 0x10000
+[    4.099443] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM HDMI2
+[    4.099444] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Passthrough Playback 4 playback DMA buffer size 0x10000 max 0x10000
+[    4.099449] sof-audio-pci-intel-cnl 0000:00:1f.3: creating new PCM HDMI3
+[    4.099450] sof-audio-pci-intel-cnl 0000:00:1f.3: spcm: allocate Passthrough Playback 5 playback DMA buffer size 0x10000 max 0x10000
+--
+[    4.099527] skl_hda_dsp_generic skl_hda_dsp_generic: ASoC: source widget Alt Analog Codec Capture overwritten
+[    4.110801] input: sof-hda-dsp Mic as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input14
+[    4.110854] input: sof-hda-dsp Headphone as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input15
+[    4.110909] input: sof-hda-dsp HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input16
+[    4.110973] input: sof-hda-dsp HDMI/DP,pcm=4 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input17
+[    4.111003] input: sof-hda-dsp HDMI/DP,pcm=5 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input18
+[    4.392969] systemd-journald[379]: Received client request to flush runtime journal.
+--
+[    6.551714] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIW: 00000010 at  00000044
+[    6.551775] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 0
+[    6.551776] sof-audio-pci-intel-cnl 0000:00:1f.3: Current DSP power state: D3
+--
+[    9.235003] st: Version 20160209, fixed bufsize 32768, s/g segs 256
+[   11.666596] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 1
+[   11.671144] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIR: 00000000 at  00000044
+--
+[   11.677456] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIW: 00000040 at  00000048
+[   11.679063] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 0
+[   11.679086] sof-audio-pci-intel-cnl 0000:00:1f.3: Current DSP power state: D0I0
+--
+[   11.810534] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.810537] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA6.OUT setup complete
+[   11.810539] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.812094] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.812096] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA5.OUT setup complete
+[   11.812098] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.813318] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.813320] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA4.OUT setup complete
+[   11.813322] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.814690] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.814691] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA3.IN setup complete
+[   11.814695] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.816900] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.816902] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA2.OUT setup complete
+[   11.816904] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.818178] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.818180] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA1.IN setup complete
+[   11.818182] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.820600] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   11.820603] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA0.OUT setup complete
+[   11.820606] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   11.822771] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.822773] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF9.1 -> HDA6.OUT
+[   11.822791] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.823139] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.823142] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF8.1 -> HDA5.OUT
+[   11.823143] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.823518] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.823519] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF7.1 -> HDA4.OUT
+[   11.823521] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.823891] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.823894] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA3.IN -> BUF4.2
+[   11.823895] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.824474] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.824475] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF3.1 -> HDA2.OUT
+[   11.824477] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.824901] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.824902] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA1.IN -> BUF2.2
+[   11.824903] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.825521] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   11.825522] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF1.1 -> HDA0.OUT
+[   11.825525] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   11.826698] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.826701] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.9.HDA6.OUT setup complete
+[   11.826703] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.9.HDA6.OUT id 62
+[   11.826704] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.826987] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.826990] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.8.HDA5.OUT setup complete
+[   11.826991] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.8.HDA5.OUT id 54
+[   11.826993] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.827280] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.827281] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.7.HDA4.OUT setup complete
+[   11.827282] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.7.HDA4.OUT id 46
+[   11.827284] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.827571] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.827574] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.4.HDA3.IN setup complete
+[   11.827575] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.4.HDA3.IN id 34
+[   11.827577] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.827891] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.827894] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.3.HDA2.OUT setup complete
+[   11.827896] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.3.HDA2.OUT id 24
+[   11.827897] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.828198] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.828200] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.2.HDA1.IN setup complete
+[   11.828201] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.2.HDA1.IN id 16
+[   11.828202] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   11.828501] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   11.828503] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.1.HDA0.OUT setup complete
+[   11.828503] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.1.HDA0.OUT id 6
+[   11.828508] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   19.010482] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIR: 00000010 at  00000044
+[   19.010489] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 0
+[   19.010491] sof-audio-pci-intel-cnl 0000:00:1f.3: Current DSP power state: D3
+[   19.010492] sof-audio-pci-intel-cnl 0000:00:1f.3: fw_state change: 6 -> 0
+[   21.610715] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 1
+[   21.615314] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIR: 00000000 at  00000044
+--
+[   21.621381] sof-audio-pci-intel-cnl 0000:00:1f.3: Debug PCIW: 00000040 at  00000048
+[   21.622520] sof-audio-pci-intel-cnl 0000:00:1f.3: Turning i915 HDAC power 0
+[   21.622539] sof-audio-pci-intel-cnl 0000:00:1f.3: Current DSP power state: D0I0
+--
+[   21.736512] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.736513] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA6.OUT setup complete
+[   21.736515] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.737938] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.737939] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA5.OUT setup complete
+[   21.737941] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.739210] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.739211] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA4.OUT setup complete
+[   21.739213] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.740450] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.740451] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA3.IN setup complete
+[   21.740456] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.742699] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.742700] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA2.OUT setup complete
+[   21.742704] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.743978] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.743979] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA1.IN setup complete
+[   21.743984] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.746162] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x80010000
+[   21.746163] sof-audio-pci-intel-cnl 0000:00:1f.3: widget HDA0.OUT setup complete
+[   21.746168] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30200000
+--
+[   21.748195] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.748197] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF9.1 -> HDA6.OUT
+[   21.748199] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.748550] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.748552] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF8.1 -> HDA5.OUT
+[   21.748554] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.748918] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.748920] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF7.1 -> HDA4.OUT
+[   21.748921] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.749296] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.749298] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA3.IN -> BUF4.2
+[   21.749299] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.749872] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.749874] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF3.1 -> HDA2.OUT
+[   21.749875] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.750250] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.750251] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route HDA1.IN -> BUF2.2
+[   21.750255] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.750870] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30030000
+[   21.750873] sof-audio-pci-intel-cnl 0000:00:1f.3: setting up route BUF1.1 -> HDA0.OUT
+[   21.750875] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30030000
+--
+[   21.751968] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.751969] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.9.HDA6.OUT setup complete
+[   21.751970] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.9.HDA6.OUT id 62
+[   21.751972] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.752251] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.752253] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.8.HDA5.OUT setup complete
+[   21.752253] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.8.HDA5.OUT id 54
+[   21.752255] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.752518] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.752520] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.7.HDA4.OUT setup complete
+[   21.752521] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.7.HDA4.OUT id 46
+[   21.752522] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.752806] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.752808] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.4.HDA3.IN setup complete
+[   21.752808] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.4.HDA3.IN id 34
+[   21.752810] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.753098] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.753100] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.3.HDA2.OUT setup complete
+[   21.753101] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.3.HDA2.OUT id 24
+[   21.753103] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.753390] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.753391] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.2.HDA1.IN setup complete
+[   21.753392] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.2.HDA1.IN id 16
+[   21.753395] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+--
+[   21.753689] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx succeeded: 0x30100000
+[   21.753690] sof-audio-pci-intel-cnl 0000:00:1f.3: widget PIPELINE.1.HDA0.OUT setup complete
+[   21.753691] sof-audio-pci-intel-cnl 0000:00:1f.3: tplg: complete pipeline PIPELINE.1.HDA0.OUT id 6
+[   21.753693] sof-audio-pci-intel-cnl 0000:00:1f.3: ipc tx: 0x30130000
+
+
+!!Packages installed
+!!--------------------
+
+ii  alsa-topology-conf                            1.2.4-1                               all          ALSA topology configuration files
+ii  alsa-ucm-conf                                 1.2.8-1                               all          ALSA Use Case Manager configuration files
+ii  alsa-utils                                    1.2.4-1                               amd64        Utilities for configuring and using ALSA
+

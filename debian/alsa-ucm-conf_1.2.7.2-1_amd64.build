@@ -1,0 +1,57 @@
+ dpkg-buildpackage -us -uc -ui -b
+dpkg-buildpackage: info: source package alsa-ucm-conf
+dpkg-buildpackage: info: source version 1.2.7.2-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Jordi Mallach <jordi@debian.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: applying 0001-ucm2-add-PinePhone-configuration.patch
+dpkg-source: info: applying 0002-ucm2-add-PineTab-configuration.patch
+dpkg-source: info: applying 0003-ucm2-add-improved-Librem-5-profiles.patch
+ debian/rules clean
+dh clean
+   dh_clean
+ debian/rules binary
+dh binary
+   dh_update_autotools_config
+   dh_autoreconf
+   create-stamp debian/debhelper-build-stamp
+   dh_prep
+   debian/rules override_dh_install
+make[1]: 进入目录“/home/tangm/work/community/intel-audio/debian/alsa-ucm-conf”
+dh_install
+rm -f /home/tangm/work/community/intel-audio/debian/alsa-ucm-conf/debian/alsa-ucm-conf/usr/share/alsa/ucm2/conf.virt.d/.gitignore
+make[1]: 离开目录“/home/tangm/work/community/intel-audio/debian/alsa-ucm-conf”
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   debian/rules execute_after_dh_fixperms
+make[1]: 进入目录“/home/tangm/work/community/intel-audio/debian/alsa-ucm-conf”
+chmod -x /home/tangm/work/community/intel-audio/debian/alsa-ucm-conf/debian/alsa-ucm-conf/usr/share/alsa/ucm2/Intel/kblrt5660/*
+make[1]: 离开目录“/home/tangm/work/community/intel-audio/debian/alsa-ucm-conf”
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: 正在 '../alsa-ucm-conf_1.2.7.2-1_all.deb' 中构建软件包 'alsa-ucm-conf'。
+ dpkg-genbuildinfo --build=binary
+ dpkg-genchanges --build=binary >../alsa-ucm-conf_1.2.7.2-1_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-source: info: unapplying 0003-ucm2-add-improved-Librem-5-profiles.patch
+dpkg-source: info: unapplying 0002-ucm2-add-PineTab-configuration.patch
+dpkg-source: info: unapplying 0001-ucm2-add-PinePhone-configuration.patch
+dpkg-buildpackage: info: binary-only upload (no source included)
+Now running lintian alsa-ucm-conf_1.2.7.2-1_amd64.changes ...
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile buildinfo alsa-ucm-conf_1.2.7.2-1_amd64.buildinfo Jordi Mallach <jordi@debian.org>
+gpg: 已跳过 “Jordi Mallach <jordi@debian.org>”： No secret key
+gpg: /tmp/debsign.JblfvS9K/alsa-ucm-conf_1.2.7.2-1_amd64.buildinfo: clear-sign failed: No secret key
+debsign: gpg error occurred!  Aborting....

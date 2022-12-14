@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 29 Jul 2022 07:52:14 +0200
+Source: alsa-ucm-conf
+Binary: alsa-ucm-conf
+Architecture: all
+Version: 1.2.7.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+Changed-By: Jordi Mallach <jordi@debian.org>
+Description:
+ alsa-ucm-conf - ALSA Use Case Manager configuration files
+Changes:
+ alsa-ucm-conf (1.2.7.2-1) unstable; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ 43e2e0b39d654c4353052eef3842d8873d739705 45908 alsa-ucm-conf_1.2.7.2-1_all.deb
+ 5110ecd03d16c68d754f93f6e4a7051fbb9fb0fa 5103 alsa-ucm-conf_1.2.7.2-1_amd64.buildinfo
+Checksums-Sha256:
+ 4ebdf34cde4a2310758bafd37ce2aea772e046ec9b03235bd01edf2a90452d11 45908 alsa-ucm-conf_1.2.7.2-1_all.deb
+ c047c4657cf9c6f61f4a71d339620b777cfc2cca42a23c2d5f2970e1df6248a9 5103 alsa-ucm-conf_1.2.7.2-1_amd64.buildinfo
+Files:
+ 21a3d8fa3d9d8e3e9a4ff9d21e590387 45908 libs optional alsa-ucm-conf_1.2.7.2-1_all.deb
+ 9ade5e117a7460d8881e9338e17e6936 5103 libs optional alsa-ucm-conf_1.2.7.2-1_amd64.buildinfo
